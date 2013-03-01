@@ -1,0 +1,15 @@
+ 1  dsldevice.lan (192.168.1.1)  8.153 ms  1.896 ms  2.569 ms
+ 2  brt-l10-bsaco701.dsl.brasiltelecom.net.br (201.67.102.254)  15.126 ms  14.433 ms  15.013 ms
+ 3  oi-g0-0-1-bsace-core01.brasiltelecom.net.br (201.10.243.142)  47.810 ms  14.245 ms  15.373 ms
+ 4  201.10.199.147.brasiltelecom.net.br (201.10.199.147)  16.502 ms
+    oi-10g4-0-0-bsaco-border.brasiltelecom.net.br (201.10.199.162)  14.408 ms
+    201.10.199.147.brasiltelecom.net.br (201.10.199.147)  14.665 ms
+ 5  pos11-1-0.newark4.new.seabone.net (195.22.216.29)  190.437 ms  189.552 ms  186.467 ms
+ 6  ge11-0-0.palermo5.pal.seabone.net (195.22.218.225)  380.338 ms  408.843 ms  718.239 ms
+ 7  bharti.palermo5.pal.seabone.net (213.144.181.86)  510.978 ms  539.455 ms  511.339 ms
+ 8  182.79.252.153 (182.79.252.153)  615.420 ms  549.230 ms  516.749 ms
+ 9  61.95.191.58 (61.95.191.58)  509.583 ms  603.193 ms  512.226 ms
+10  * * *
+11  * * *
+12  * * *
+13  203.112.217.163 (203.112.217.163)  460.401 ms  489.416 ms  818.406 ms

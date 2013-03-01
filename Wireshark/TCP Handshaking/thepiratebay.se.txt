@@ -1,0 +1,9 @@
+No.     Time           Source                Destination           Protocol Length Info
+     55 1.221274000    192.168.0.148         194.71.107.15         TCP      78     55157 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=349705756 TSecr=0 SACK_PERM=1
+     56 1.535322000    194.71.107.15         192.168.0.148         TCP      74     http > 55157 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 SACK_PERM=1 TSval=1560764676 TSecr=349705756 WS=1024
+     57 1.535552000    192.168.0.148         194.71.107.15         TCP      66     55157 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=349706068 TSecr=1560764676
+     58 1.537258000    192.168.0.148         194.71.107.15         HTTP     612    GET / HTTP/1.1 
+     61 1.829306000    194.71.107.15         192.168.0.148         TCP      66     http > 55157 [ACK] Seq=1 Ack=547 Win=7168 Len=0 TSval=1560764755 TSecr=349706069
+     62 1.841018000    194.71.107.15         192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+     63 1.841703000    194.71.107.15         192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+     64 1.841763000    194.71.107.15         192.168.0.148         HTTP     349    HTTP/1.1 200 OK  (text/html)

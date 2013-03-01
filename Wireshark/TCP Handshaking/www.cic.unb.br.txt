@@ -1,0 +1,32 @@
+No.     Time           Source                Destination           Protocol Length Info
+    227 32.809121000   192.168.0.148         164.41.14.9           TCP      78     55051 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=348959626 TSecr=0 SACK_PERM=1
+    228 32.816844000   164.41.14.9           192.168.0.148         TCP      74     http > 55051 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 WS=8 SACK_PERM=1 TSval=3092487875 TSecr=348959626
+    229 32.816975000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=348959633 TSecr=3092487875
+    230 32.818879000   192.168.0.148         164.41.14.9           HTTP     810    GET / HTTP/1.1 
+    231 32.919810000   164.41.14.9           192.168.0.148         TCP      66     http > 55051 [ACK] Seq=1 Ack=745 Win=66608 Len=0 TSval=3092487886 TSecr=348959634
+    233 33.809944000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    234 33.810282000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    235 33.810435000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=2897 Win=129616 Len=0 TSval=348960621 TSecr=3092487958
+    236 33.810644000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    237 33.811467000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=4345 Win=131072 Len=0 TSval=348960622 TSecr=3092487958
+    238 33.812809000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    239 33.813118000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    240 33.813223000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=7241 Win=129616 Len=0 TSval=348960623 TSecr=3092487975
+    241 33.813425000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    242 33.813638000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=8689 Win=131072 Len=0 TSval=348960623 TSecr=3092487975
+    243 33.813735000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    244 33.814057000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    245 33.814117000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=11585 Win=129616 Len=0 TSval=348960624 TSecr=3092487975
+    246 33.814357000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    247 33.814512000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=13033 Win=131072 Len=0 TSval=348960624 TSecr=3092487975
+    248 33.818175000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    249 33.818466000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    250 33.818542000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=15929 Win=129616 Len=0 TSval=348960628 TSecr=3092487975
+    251 33.819070000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    252 33.819219000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=17377 Win=131072 Len=0 TSval=348960628 TSecr=3092487975
+    253 33.820345000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    254 33.820656000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    255 33.820720000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=20273 Win=129616 Len=0 TSval=348960630 TSecr=3092487975
+    256 33.822213000   164.41.14.9           192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+    257 33.822320000   192.168.0.148         164.41.14.9           TCP      66     55051 > http [ACK] Seq=745 Ack=21721 Win=131072 Len=0 TSval=348960631 TSecr=3092487976
+    258 33.822419000   164.41.14.9           192.168.0.148         HTTP     908    HTTP/1.1 200 OK  (text/html)

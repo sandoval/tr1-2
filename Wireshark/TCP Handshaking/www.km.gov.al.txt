@@ -1,0 +1,1216 @@
+No.     Time           Source                Destination           Protocol Length Info
+   8455 266.793619000  192.168.0.148         134.0.35.195          ICMP     98     Echo (ping) request  id=0xdf9a, seq=0/0, ttl=64
+   8456 267.795356000  192.168.0.148         134.0.35.195          ICMP     98     Echo (ping) request  id=0xdf9a, seq=1/256, ttl=64
+   9439 289.845350000  192.168.0.148         134.0.35.195          TCP      78     55442 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350458322 TSecr=0 SACK_PERM=1
+   9440 290.151728000  134.0.35.195          192.168.0.148         TCP      74     http > 55442 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508320 TSecr=350458322
+   9441 290.151809000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350458627 TSecr=721508320
+   9442 290.153061000  192.168.0.148         134.0.35.195          HTTP     617    GET /?gj=gj2 HTTP/1.1 
+   9447 290.465218000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9448 290.465540000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9449 290.465632000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=2897 Win=129616 Len=0 TSval=350458938 TSecr=721508350
+   9450 290.478690000  192.168.0.148         134.0.35.195          TCP      78     55444 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350458950 TSecr=0 SACK_PERM=1
+   9451 290.478691000  192.168.0.148         134.0.35.195          TCP      78     55446 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350458950 TSecr=0 SACK_PERM=1
+   9452 290.478691000  192.168.0.148         134.0.35.195          TCP      78     55448 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350458950 TSecr=0 SACK_PERM=1
+   9453 290.767072000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9454 290.767391000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9455 290.767440000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=4345 Win=131072 Len=0 TSval=350459236 TSecr=721508382
+   9456 290.767759000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9457 290.767827000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=7241 Win=129616 Len=0 TSval=350459236 TSecr=721508382
+   9458 290.768267000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9459 290.768332000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=8689 Win=129616 Len=0 TSval=350459237 TSecr=721508382
+   9460 290.771514000  192.168.0.148         134.0.35.195          TCP      78     55449 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350459240 TSecr=0 SACK_PERM=1
+   9461 290.771515000  192.168.0.148         134.0.35.195          TCP      78     55451 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350459240 TSecr=0 SACK_PERM=1
+   9462 290.771999000  134.0.35.195          192.168.0.148         TCP      74     http > 55444 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508383 TSecr=350458950
+   9463 290.772043000  192.168.0.148         134.0.35.195          TCP      66     55444 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350459240 TSecr=721508383
+   9464 290.772978000  192.168.0.148         134.0.35.195          HTTP     426    GET /js/ajax.js HTTP/1.1 
+   9465 290.777851000  134.0.35.195          192.168.0.148         TCP      74     http > 55446 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508383 TSecr=350458950
+   9466 290.777910000  134.0.35.195          192.168.0.148         TCP      74     http > 55448 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508384 TSecr=350458950
+   9467 290.777963000  192.168.0.148         134.0.35.195          TCP      66     55446 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350459245 TSecr=721508383
+   9468 290.777985000  192.168.0.148         134.0.35.195          TCP      66     55448 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350459245 TSecr=721508384
+   9469 290.779006000  192.168.0.148         134.0.35.195          HTTP     442    GET /js/ajax-dynamic-content.js HTTP/1.1 
+   9470 290.779823000  192.168.0.148         134.0.35.195          HTTP     434    GET /virtualpaginate.js HTTP/1.1 
+   9471 291.074420000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9472 291.074814000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9473 291.074908000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=11585 Win=128176 Len=0 TSval=350459539 TSecr=721508412
+   9474 291.075104000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9475 291.075285000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=13033 Win=130800 Len=0 TSval=350459539 TSecr=721508412
+   9476 291.075640000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9477 291.075997000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9478 291.076088000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=15929 Win=129616 Len=0 TSval=350459540 TSecr=721508412
+   9479 291.076337000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9480 291.076497000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=17377 Win=131072 Len=0 TSval=350459540 TSecr=721508412
+   9481 291.076981000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9482 291.077284000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9483 291.078159000  134.0.35.195          192.168.0.148         HTTP     566    HTTP/1.1 200 OK  (application/x-javascript)
+   9484 291.078221000  192.168.0.148         134.0.35.195          TCP      66     55448 > http [ACK] Seq=377 Ack=1949 Win=130560 Len=0 TSval=350459542 TSecr=721508413
+   9485 291.078525000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9486 291.078837000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9487 291.078909000  192.168.0.148         134.0.35.195          TCP      66     55444 > http [ACK] Seq=361 Ack=2897 Win=128864 Len=0 TSval=350459542 TSecr=721508413
+   9488 291.078965000  192.168.0.148         134.0.35.195          TCP      66     55448 > http [FIN, ACK] Seq=377 Ack=1949 Win=131072 Len=0 TSval=350459542 TSecr=721508413
+   9489 291.079165000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9490 291.079468000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9491 291.079529000  192.168.0.148         134.0.35.195          TCP      66     55446 > http [ACK] Seq=369 Ack=2897 Win=129616 Len=0 TSval=350459543 TSecr=721508413
+   9492 291.082040000  192.168.0.148         134.0.35.195          TCP      78     55453 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350459545 TSecr=0 SACK_PERM=1
+   9493 291.193987000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459656 TSecr=721508412
+   9494 291.364235000  134.0.35.195          192.168.0.148         HTTP     1514   [TCP Previous segment not captured] Continuation or non-HTTP traffic
+   9495 291.364423000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#1] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459825 TSecr=721508412 SLE=20273 SRE=21721
+   9496 291.364519000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9497 291.364613000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#2] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459825 TSecr=721508412 SLE=20273 SRE=23169
+   9498 291.364760000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9499 291.364818000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#3] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459825 TSecr=721508412 SLE=20273 SRE=24617
+   9500 291.365062000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9501 291.365099000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#4] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459825 TSecr=721508412 SLE=20273 SRE=26065
+   9502 291.366524000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9503 291.366657000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#5] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459827 TSecr=721508412 SLE=20273 SRE=27513
+   9504 291.366832000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9505 291.366968000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#6] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459827 TSecr=721508412 SLE=20273 SRE=28961
+   9506 291.367170000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9507 291.367240000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#7] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459827 TSecr=721508412 SLE=20273 SRE=30409
+   9508 291.367480000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9509 291.367536000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#8] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459827 TSecr=721508412 SLE=20273 SRE=31857
+   9510 291.367780000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9511 291.367817000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#9] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459828 TSecr=721508412 SLE=20273 SRE=33305
+   9512 291.368092000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9513 291.368132000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#10] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459828 TSecr=721508412 SLE=20273 SRE=34753
+   9514 291.368560000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9515 291.368609000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#11] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459828 TSecr=721508412 SLE=20273 SRE=36201
+   9516 291.368863000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9517 291.368924000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#12] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459829 TSecr=721508412 SLE=20273 SRE=37649
+   9518 291.370706000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9519 291.370881000  192.168.0.148         134.0.35.195          TCP      66     55446 > http [ACK] Seq=369 Ack=4345 Win=131072 Len=0 TSval=350459830 TSecr=721508443
+   9520 291.371031000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9521 291.371344000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9522 291.371397000  192.168.0.148         134.0.35.195          TCP      66     55446 > http [ACK] Seq=369 Ack=7241 Win=129616 Len=0 TSval=350459830 TSecr=721508443
+   9523 291.371663000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9524 291.371714000  192.168.0.148         134.0.35.195          TCP      66     55446 > http [ACK] Seq=369 Ack=8689 Win=129616 Len=0 TSval=350459830 TSecr=721508443
+   9525 291.371981000  134.0.35.195          192.168.0.148         HTTP     1450   HTTP/1.1 200 OK  (application/x-javascript)
+   9526 291.372046000  134.0.35.195          192.168.0.148         TCP      66     http > 55448 [FIN, ACK] Seq=1949 Ack=377 Win=66560 Len=0 TSval=721508443 TSecr=350459542
+   9527 291.372058000  192.168.0.148         134.0.35.195          TCP      66     55444 > http [ACK] Seq=361 Ack=4281 Win=129680 Len=0 TSval=350459831 TSecr=721508443
+   9528 291.372139000  134.0.35.195          192.168.0.148         TCP      66     http > 55448 [ACK] Seq=1950 Ack=378 Win=66560 Len=0 TSval=721508443 TSecr=350459542
+   9529 291.372153000  192.168.0.148         134.0.35.195          TCP      66     55448 > http [FIN, ACK] Seq=377 Ack=1950 Win=131072 Len=0 TSval=350459831 TSecr=721508443
+   9530 291.372192000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9529#1] 55448 > http [ACK] Seq=378 Ack=1950 Win=131072 Len=0 TSval=350459831 TSecr=721508443
+   9531 291.372829000  192.168.0.148         134.0.35.195          TCP      66     55444 > http [FIN, ACK] Seq=361 Ack=4281 Win=131072 Len=0 TSval=350459831 TSecr=721508443
+   9532 291.373382000  134.0.35.195          192.168.0.148         TCP      74     http > 55453 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508443 TSecr=350459545
+   9533 291.373442000  192.168.0.148         134.0.35.195          TCP      66     55453 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350459832 TSecr=721508443
+   9534 291.375055000  192.168.0.148         134.0.35.195          HTTP     450    GET /image-slideshow.css HTTP/1.1 
+   9535 291.376057000  192.168.0.148         134.0.35.195          TCP      78     55455 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350459835 TSecr=0 SACK_PERM=1
+   9537 291.483357000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9538 291.483448000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#13] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459941 TSecr=721508412 SLE=20273 SRE=39097
+   9539 291.483626000  134.0.35.195          192.168.0.148         HTTP     1514   Continuation or non-HTTP traffic
+   9540 291.483674000  192.168.0.148         134.0.35.195          TCP      78     [TCP Dup ACK 9493#14] 55442 > http [ACK] Seq=552 Ack=18825 Win=131072 Len=0 TSval=350459941 TSecr=721508412 SLE=20273 SRE=40545
+   9541 291.656647000  134.0.35.195          192.168.0.148         HTTP     1514   [TCP Retransmission] Continuation or non-HTTP traffic
+   9542 291.656757000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=40545 Win=109344 Len=0 TSval=350460113 TSecr=721508472
+   9543 291.661713000  134.0.35.195          192.168.0.148         HTTP     486    HTTP/1.1 200 OK  (application/x-javascript)
+   9544 291.661792000  192.168.0.148         134.0.35.195          TCP      66     55446 > http [ACK] Seq=369 Ack=9109 Win=130640 Len=0 TSval=350460118 TSecr=721508472
+   9545 291.662303000  192.168.0.148         134.0.35.195          TCP      66     55446 > http [FIN, ACK] Seq=369 Ack=9109 Win=131072 Len=0 TSval=350460118 TSecr=721508472
+   9546 291.663704000  134.0.35.195          192.168.0.148         TCP      66     http > 55444 [FIN, ACK] Seq=4281 Ack=361 Win=66560 Len=0 TSval=721508472 TSecr=350459831
+   9547 291.663756000  192.168.0.148         134.0.35.195          TCP      66     55444 > http [FIN, ACK] Seq=361 Ack=4282 Win=131072 Len=0 TSval=350460119 TSecr=721508472
+   9548 291.664151000  134.0.35.195          192.168.0.148         TCP      66     http > 55444 [ACK] Seq=4282 Ack=362 Win=66560 Len=0 TSval=721508473 TSecr=350459831
+   9549 291.664195000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9547#1] 55444 > http [ACK] Seq=362 Ack=4282 Win=131072 Len=0 TSval=350460119 TSecr=721508473
+   9550 291.664700000  192.168.0.148         134.0.35.195          TCP      78     55457 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350460119 TSecr=0 SACK_PERM=1
+   9551 291.668170000  134.0.35.195          192.168.0.148         TCP      74     http > 55455 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508473 TSecr=350459835
+   9552 291.668243000  192.168.0.148         134.0.35.195          TCP      66     55455 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350460123 TSecr=721508473
+   9553 291.668832000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9554 291.669002000  134.0.35.195          192.168.0.148         HTTP     605    HTTP/1.1 200 OK  (text/css)
+   9555 291.669042000  192.168.0.148         134.0.35.195          TCP      66     55453 > http [ACK] Seq=385 Ack=1988 Win=129776 Len=0 TSval=350460123 TSecr=721508473
+   9556 291.669389000  192.168.0.148         134.0.35.195          HTTP     448    GET /galeri_styles.css HTTP/1.1 
+   9557 291.670170000  192.168.0.148         134.0.35.195          TCP      66     55453 > http [FIN, ACK] Seq=385 Ack=1988 Win=131072 Len=0 TSval=350460124 TSecr=721508473
+   9558 291.797231000  192.168.0.148         134.0.35.195          TCP      78     55451 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350460250 TSecr=0 SACK_PERM=1
+   9559 291.797231000  192.168.0.148         134.0.35.195          TCP      78     55449 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350460250 TSecr=0 SACK_PERM=1
+   9560 291.945623000  134.0.35.195          192.168.0.148         HTTP     1183   Continuation or non-HTTP traffic
+   9561 291.945875000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [ACK] Seq=552 Ack=41662 Win=129952 Len=0 TSval=350460398 TSecr=721508501
+   9562 291.947080000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [FIN, ACK] Seq=552 Ack=41662 Win=131072 Len=0 TSval=350460399 TSecr=721508501
+   9563 291.950847000  134.0.35.195          192.168.0.148         TCP      66     http > 55446 [FIN, ACK] Seq=9109 Ack=369 Win=66560 Len=0 TSval=721508501 TSecr=350460118
+   9564 291.950980000  192.168.0.148         134.0.35.195          TCP      66     55446 > http [FIN, ACK] Seq=369 Ack=9110 Win=131072 Len=0 TSval=350460402 TSecr=721508501
+   9565 291.951215000  134.0.35.195          192.168.0.148         TCP      66     http > 55446 [ACK] Seq=9110 Ack=370 Win=66560 Len=0 TSval=721508501 TSecr=350460118
+   9566 291.951360000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9564#1] 55446 > http [ACK] Seq=370 Ack=9110 Win=131072 Len=0 TSval=350460402 TSecr=721508501
+   9567 291.957266000  134.0.35.195          192.168.0.148         TCP      74     http > 55457 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508502 TSecr=350460119
+   9568 291.957336000  134.0.35.195          192.168.0.148         TCP      66     http > 55453 [FIN, ACK] Seq=1988 Ack=385 Win=66560 Len=0 TSval=721508502 TSecr=350460123
+   9569 291.957404000  192.168.0.148         134.0.35.195          TCP      66     55457 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350460408 TSecr=721508502
+   9570 291.957428000  192.168.0.148         134.0.35.195          TCP      66     55453 > http [FIN, ACK] Seq=385 Ack=1989 Win=131072 Len=0 TSval=350460408 TSecr=721508502
+   9571 291.958182000  134.0.35.195          192.168.0.148         TCP      66     http > 55453 [ACK] Seq=1989 Ack=386 Win=66560 Len=0 TSval=721508502 TSecr=350460124
+   9572 291.958246000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9570#1] 55453 > http [ACK] Seq=386 Ack=1989 Win=131072 Len=0 TSval=350460408 TSecr=721508502
+   9573 291.958833000  192.168.0.148         134.0.35.195          HTTP     427    GET /ocscript.js HTTP/1.1 
+   9574 291.962543000  134.0.35.195          192.168.0.148         HTTP     1346   HTTP/1.1 200 OK  (text/css)
+   9575 291.962747000  192.168.0.148         134.0.35.195          TCP      66     55455 > http [ACK] Seq=383 Ack=1281 Win=130480 Len=0 TSval=350460412 TSecr=721508502
+   9576 291.963595000  192.168.0.148         134.0.35.195          TCP      66     55455 > http [FIN, ACK] Seq=383 Ack=1281 Win=131072 Len=0 TSval=350460412 TSecr=721508502
+   9578 292.234357000  134.0.35.195          192.168.0.148         TCP      66     http > 55442 [FIN, ACK] Seq=41662 Ack=552 Win=66560 Len=0 TSval=721508530 TSecr=350460398
+   9579 292.234618000  192.168.0.148         134.0.35.195          TCP      66     55442 > http [FIN, ACK] Seq=552 Ack=41663 Win=131072 Len=0 TSval=350460683 TSecr=721508530
+   9580 292.235747000  134.0.35.195          192.168.0.148         TCP      66     http > 55442 [ACK] Seq=41663 Ack=553 Win=66560 Len=0 TSval=721508530 TSecr=350460399
+   9581 292.235922000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9579#1] 55442 > http [ACK] Seq=553 Ack=41663 Win=131072 Len=0 TSval=350460684 TSecr=721508530
+   9582 292.251744000  134.0.35.195          192.168.0.148         TCP      66     http > 55455 [ACK] Seq=1281 Ack=384 Win=66560 Len=0 TSval=721508531 TSecr=350460412
+   9583 292.252029000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9576#1] 55455 > http [ACK] Seq=384 Ack=1281 Win=131072 Len=0 TSval=350460700 TSecr=721508531
+   9584 292.252832000  134.0.35.195          192.168.0.148         TCP      66     http > 55455 [FIN, ACK] Seq=1281 Ack=384 Win=66560 Len=0 TSval=721508531 TSecr=350460412
+   9585 292.252957000  192.168.0.148         134.0.35.195          TCP      66     55455 > http [ACK] Seq=384 Ack=1282 Win=131072 Len=0 TSval=350460701 TSecr=721508531
+   9586 292.257715000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9587 292.257980000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9588 292.258052000  192.168.0.148         134.0.35.195          TCP      66     55457 > http [ACK] Seq=362 Ack=2897 Win=128864 Len=0 TSval=350460705 TSecr=721508531
+   9590 292.612189000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9591 292.612464000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9592 292.612539000  192.168.0.148         134.0.35.195          TCP      66     55457 > http [ACK] Seq=362 Ack=5793 Win=128176 Len=0 TSval=350461057 TSecr=721508561
+   9593 292.612721000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9594 292.612908000  192.168.0.148         134.0.35.195          TCP      66     55457 > http [ACK] Seq=362 Ack=7241 Win=131072 Len=0 TSval=350461057 TSecr=721508561
+   9595 292.613293000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9596 292.613351000  192.168.0.148         134.0.35.195          TCP      66     55457 > http [ACK] Seq=362 Ack=8689 Win=129616 Len=0 TSval=350461058 TSecr=721508561
+   9597 292.899772000  192.168.0.148         134.0.35.195          TCP      78     55451 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350461343 TSecr=0 SACK_PERM=1
+   9598 292.899773000  192.168.0.148         134.0.35.195          TCP      78     55449 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350461343 TSecr=0 SACK_PERM=1
+   9599 292.902222000  134.0.35.195          192.168.0.148         HTTP     486    HTTP/1.1 200 OK  (application/x-javascript)
+   9600 292.902393000  192.168.0.148         134.0.35.195          TCP      66     55457 > http [ACK] Seq=362 Ack=9109 Win=130640 Len=0 TSval=350461345 TSecr=721508596
+   9601 292.903361000  192.168.0.148         134.0.35.195          TCP      66     55457 > http [FIN, ACK] Seq=362 Ack=9109 Win=131072 Len=0 TSval=350461345 TSecr=721508596
+   9602 293.225596000  134.0.35.195          192.168.0.148         TCP      66     http > 55457 [FIN, ACK] Seq=9109 Ack=362 Win=66560 Len=0 TSval=721508625 TSecr=350461345
+   9603 293.225654000  134.0.35.195          192.168.0.148         TCP      66     http > 55457 [ACK] Seq=9110 Ack=363 Win=66560 Len=0 TSval=721508625 TSecr=350461345
+   9604 293.225683000  192.168.0.148         134.0.35.195          TCP      66     55457 > http [FIN, ACK] Seq=362 Ack=9110 Win=131072 Len=0 TSval=350461667 TSecr=721508625
+   9605 293.225701000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9604#1] 55457 > http [ACK] Seq=363 Ack=9110 Win=131072 Len=0 TSval=350461667 TSecr=721508625
+   9606 293.904892000  192.168.0.148         134.0.35.195          TCP      78     55451 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350462343 TSecr=0 SACK_PERM=1
+   9607 293.904892000  192.168.0.148         134.0.35.195          TCP      78     55449 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350462343 TSecr=0 SACK_PERM=1
+   9608 294.063303000  134.0.35.195          192.168.0.148         TCP      74     http > 55449 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508712 TSecr=350459240
+   9609 294.063559000  192.168.0.148         134.0.35.195          TCP      66     55449 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350462500 TSecr=721508712
+   9610 294.065728000  192.168.0.148         134.0.35.195          HTTP     441    GET /stilet.css HTTP/1.1 
+   9611 294.078120000  134.0.35.195          192.168.0.148         TCP      74     http > 55451 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508714 TSecr=350459240
+   9612 294.078315000  192.168.0.148         134.0.35.195          TCP      66     55451 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350462514 TSecr=721508714
+   9613 294.079736000  192.168.0.148         134.0.35.195          HTTP     445    GET /menustyle2.css HTTP/1.1 
+   9616 294.458058000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9617 294.458384000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9618 294.458458000  192.168.0.148         134.0.35.195          TCP      66     55449 > http [ACK] Seq=376 Ack=2897 Win=129616 Len=0 TSval=350462890 TSecr=721508742
+   9619 294.458838000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9620 294.459323000  134.0.35.195          192.168.0.148         HTTP     1278   HTTP/1.1 200 OK  (text/css)
+   9621 294.459396000  192.168.0.148         134.0.35.195          TCP      66     55451 > http [ACK] Seq=380 Ack=2661 Win=129856 Len=0 TSval=350462891 TSecr=721508743
+   9622 294.460134000  192.168.0.148         134.0.35.195          TCP      66     55451 > http [FIN, ACK] Seq=380 Ack=2661 Win=131072 Len=0 TSval=350462891 TSecr=721508743
+   9624 294.762676000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9625 294.762754000  134.0.35.195          192.168.0.148         HTTP     241    HTTP/1.1 200 OK  (text/css)
+   9626 294.762864000  134.0.35.195          192.168.0.148         TCP      66     http > 55451 [FIN, ACK] Seq=2661 Ack=380 Win=66560 Len=0 TSval=721508781 TSecr=350462891
+   9627 294.762880000  192.168.0.148         134.0.35.195          TCP      66     55449 > http [ACK] Seq=376 Ack=4520 Win=129440 Len=0 TSval=350463192 TSecr=721508781
+   9628 294.762906000  192.168.0.148         134.0.35.195          TCP      66     55451 > http [FIN, ACK] Seq=380 Ack=2662 Win=131072 Len=0 TSval=350463192 TSecr=721508781
+   9629 294.762951000  134.0.35.195          192.168.0.148         TCP      66     http > 55451 [ACK] Seq=2662 Ack=381 Win=66560 Len=0 TSval=721508781 TSecr=350462891
+   9630 294.762991000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9628#1] 55451 > http [ACK] Seq=381 Ack=2662 Win=131072 Len=0 TSval=350463192 TSecr=721508781
+   9631 294.763811000  192.168.0.148         134.0.35.195          TCP      66     55449 > http [FIN, ACK] Seq=376 Ack=4520 Win=131072 Len=0 TSval=350463193 TSecr=721508781
+   9636 294.835275000  192.168.0.148         134.0.35.195          TCP      78     55459 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350463263 TSecr=0 SACK_PERM=1
+   9637 294.835276000  192.168.0.148         134.0.35.195          TCP      78     55461 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350463263 TSecr=0 SACK_PERM=1
+   9638 294.835809000  192.168.0.148         134.0.35.195          TCP      78     55462 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350463263 TSecr=0 SACK_PERM=1
+   9639 294.835809000  192.168.0.148         134.0.35.195          TCP      78     55464 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350463263 TSecr=0 SACK_PERM=1
+   9640 294.835839000  192.168.0.148         134.0.35.195          TCP      78     55465 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350463263 TSecr=0 SACK_PERM=1
+   9641 294.835959000  192.168.0.148         134.0.35.195          TCP      78     55466 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350463263 TSecr=0 SACK_PERM=1
+   9642 295.052603000  134.0.35.195          192.168.0.148         TCP      66     http > 55449 [FIN, ACK] Seq=4520 Ack=376 Win=66560 Len=0 TSval=721508811 TSecr=350463192
+   9643 295.052815000  192.168.0.148         134.0.35.195          TCP      66     55449 > http [FIN, ACK] Seq=376 Ack=4521 Win=131072 Len=0 TSval=350463479 TSecr=721508811
+   9644 295.052934000  134.0.35.195          192.168.0.148         TCP      66     http > 55449 [ACK] Seq=4521 Ack=377 Win=66560 Len=0 TSval=721508811 TSecr=350463193
+   9645 295.053168000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9643#1] 55449 > http [ACK] Seq=377 Ack=4521 Win=131072 Len=0 TSval=350463479 TSecr=721508811
+   9647 295.146211000  134.0.35.195          192.168.0.148         TCP      74     http > 55459 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508820 TSecr=350463263
+   9648 295.146481000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350463571 TSecr=721508820
+   9649 295.148849000  192.168.0.148         134.0.35.195          HTTP     434    GET /imazhet/kokaen.jpg HTTP/1.1 
+   9650 295.149670000  134.0.35.195          192.168.0.148         TCP      74     http > 55461 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508821 TSecr=350463263
+   9651 295.149735000  192.168.0.148         134.0.35.195          TCP      66     55461 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350463573 TSecr=721508821
+   9652 295.151366000  134.0.35.195          192.168.0.148         TCP      74     http > 55462 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508821 TSecr=350463263
+   9653 295.151391000  192.168.0.148         134.0.35.195          HTTP     448    GET /imazhet/imazhet/albania_flag.gif HTTP/1.1 
+   9654 295.151447000  192.168.0.148         134.0.35.195          TCP      66     55462 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350463575 TSecr=721508821
+   9655 295.152730000  192.168.0.148         134.0.35.195          HTTP     435    GET /imazhet/bg_menu.gif HTTP/1.1 
+   9656 295.154270000  134.0.35.195          192.168.0.148         TCP      74     http > 55464 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508821 TSecr=350463263
+   9657 295.154461000  192.168.0.148         134.0.35.195          TCP      66     55464 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350463577 TSecr=721508821
+   9658 295.155934000  192.168.0.148         134.0.35.195          HTTP     434    GET /imazhet/bg_doc.gif HTTP/1.1 
+   9659 295.156865000  134.0.35.195          192.168.0.148         TCP      74     http > 55465 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508822 TSecr=350463263
+   9660 295.157014000  192.168.0.148         134.0.35.195          TCP      66     55465 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350463579 TSecr=721508822
+   9661 295.158160000  192.168.0.148         134.0.35.195          HTTP     435    GET /images/heading3.gif HTTP/1.1 
+   9662 295.159567000  134.0.35.195          192.168.0.148         TCP      74     http > 55466 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508822 TSecr=350463263
+   9663 295.159761000  192.168.0.148         134.0.35.195          TCP      66     55466 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350463581 TSecr=721508822
+   9664 295.161197000  192.168.0.148         134.0.35.195          HTTP     448    GET /imazhet/imazhet/kryeministri.jpg HTTP/1.1 
+   9665 295.684776000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9666 295.685212000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9667 295.685263000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=2897 Win=129616 Len=0 TSval=350464102 TSecr=721508850
+   9668 295.685376000  134.0.35.195          192.168.0.148         HTTP     614    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+   9669 295.685413000  192.168.0.148         134.0.35.195          TCP      66     55461 > http [ACK] Seq=383 Ack=549 Win=131216 Len=0 TSval=350464102 TSecr=721508851
+   9670 295.685537000  134.0.35.195          192.168.0.148         HTTP     492    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+   9671 295.685573000  192.168.0.148         134.0.35.195          TCP      66     55462 > http [ACK] Seq=370 Ack=427 Win=131328 Len=0 TSval=350464102 TSecr=721508851
+   9672 295.685712000  134.0.35.195          192.168.0.148         HTTP     487    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+   9673 295.685748000  192.168.0.148         134.0.35.195          TCP      66     55464 > http [ACK] Seq=369 Ack=422 Win=131344 Len=0 TSval=350464102 TSecr=721508851
+   9674 295.685887000  134.0.35.195          192.168.0.148         HTTP     536    HTTP/1.1 404 Not Found  (text/html)
+   9675 295.685922000  192.168.0.148         134.0.35.195          TCP      66     55465 > http [ACK] Seq=370 Ack=471 Win=131296 Len=0 TSval=350464103 TSecr=721508851
+   9676 295.686568000  192.168.0.148         134.0.35.195          TCP      66     55462 > http [FIN, ACK] Seq=370 Ack=427 Win=131328 Len=0 TSval=350464103 TSecr=721508851
+   9677 295.686691000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9678 295.687050000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9679 295.687090000  192.168.0.148         134.0.35.195          TCP      66     55466 > http [ACK] Seq=383 Ack=2897 Win=129616 Len=0 TSval=350464104 TSecr=721508851
+   9680 295.688303000  192.168.0.148         134.0.35.195          TCP      66     55465 > http [FIN, ACK] Seq=370 Ack=471 Win=131296 Len=0 TSval=350464105 TSecr=721508851
+   9681 295.688902000  192.168.0.148         134.0.35.195          TCP      66     55461 > http [FIN, ACK] Seq=383 Ack=549 Win=131216 Len=0 TSval=350464105 TSecr=721508851
+   9682 295.689676000  192.168.0.148         134.0.35.195          TCP      66     55464 > http [FIN, ACK] Seq=369 Ack=422 Win=131344 Len=0 TSval=350464106 TSecr=721508851
+   9683 295.702126000  192.168.0.148         134.0.35.195          TCP      78     55468 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350464118 TSecr=0 SACK_PERM=1
+   9684 295.702198000  192.168.0.148         134.0.35.195          TCP      78     55470 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350464118 TSecr=0 SACK_PERM=1
+   9685 295.702330000  192.168.0.148         134.0.35.195          TCP      78     55472 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350464118 TSecr=0 SACK_PERM=1
+   9686 295.702347000  192.168.0.148         134.0.35.195          TCP      78     55474 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350464118 TSecr=0 SACK_PERM=1
+   9695 295.979000000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9696 295.979295000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9697 295.979383000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=5793 Win=128176 Len=0 TSval=350464392 TSecr=721508903
+   9698 295.979491000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9699 295.979642000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=7241 Win=131072 Len=0 TSval=350464392 TSecr=721508903
+   9700 295.979807000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9701 295.979870000  134.0.35.195          192.168.0.148         TCP      66     http > 55462 [FIN, ACK] Seq=427 Ack=370 Win=66560 Len=0 TSval=721508904 TSecr=350464102
+   9702 295.979880000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=8689 Win=129616 Len=0 TSval=350464392 TSecr=721508903
+   9703 295.979912000  192.168.0.148         134.0.35.195          TCP      66     55462 > http [FIN, ACK] Seq=370 Ack=428 Win=131328 Len=0 TSval=350464392 TSecr=721508904
+   9704 295.979975000  134.0.35.195          192.168.0.148         TCP      66     http > 55461 [FIN, ACK] Seq=549 Ack=383 Win=66560 Len=0 TSval=721508904 TSecr=350464102
+   9705 295.980070000  134.0.35.195          192.168.0.148         TCP      66     http > 55464 [FIN, ACK] Seq=422 Ack=369 Win=66560 Len=0 TSval=721508904 TSecr=350464102
+   9706 295.980082000  192.168.0.148         134.0.35.195          TCP      66     55461 > http [FIN, ACK] Seq=383 Ack=550 Win=131216 Len=0 TSval=350464392 TSecr=721508904
+   9707 295.980125000  192.168.0.148         134.0.35.195          TCP      66     55464 > http [FIN, ACK] Seq=369 Ack=423 Win=131344 Len=0 TSval=350464392 TSecr=721508904
+   9708 295.980195000  134.0.35.195          192.168.0.148         TCP      66     http > 55465 [FIN, ACK] Seq=471 Ack=370 Win=66560 Len=0 TSval=721508904 TSecr=350464103
+   9709 295.980268000  192.168.0.148         134.0.35.195          TCP      66     55465 > http [FIN, ACK] Seq=370 Ack=472 Win=131296 Len=0 TSval=350464393 TSecr=721508904
+   9710 295.980712000  134.0.35.195          192.168.0.148         TCP      66     http > 55462 [ACK] Seq=428 Ack=371 Win=66560 Len=0 TSval=721508904 TSecr=350464103
+   9711 295.980793000  134.0.35.195          192.168.0.148         TCP      66     http > 55465 [ACK] Seq=472 Ack=371 Win=66560 Len=0 TSval=721508904 TSecr=350464105
+   9712 295.980806000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9703#1] 55462 > http [ACK] Seq=371 Ack=428 Win=131328 Len=0 TSval=350464393 TSecr=721508904
+   9713 295.980840000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9709#1] 55465 > http [ACK] Seq=371 Ack=472 Win=131296 Len=0 TSval=350464393 TSecr=721508904
+   9714 295.981318000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9715 295.981482000  192.168.0.148         134.0.35.195          TCP      66     55466 > http [ACK] Seq=383 Ack=4345 Win=131072 Len=0 TSval=350464394 TSecr=721508904
+   9716 295.981627000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9717 295.981938000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9718 295.981994000  192.168.0.148         134.0.35.195          TCP      66     55466 > http [ACK] Seq=383 Ack=7241 Win=129616 Len=0 TSval=350464394 TSecr=721508904
+   9719 295.982131000  134.0.35.195          192.168.0.148         HTTP     745    HTTP/1.1 200 OK  (JPEG JFIF image)
+   9720 295.982221000  134.0.35.195          192.168.0.148         TCP      66     http > 55464 [ACK] Seq=423 Ack=370 Win=66560 Len=0 TSval=721508904 TSecr=350464106
+   9721 295.982234000  192.168.0.148         134.0.35.195          TCP      66     55466 > http [ACK] Seq=383 Ack=7920 Win=130384 Len=0 TSval=350464394 TSecr=721508904
+   9722 295.982274000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9707#1] 55464 > http [ACK] Seq=370 Ack=423 Win=131344 Len=0 TSval=350464394 TSecr=721508904
+   9723 295.982328000  134.0.35.195          192.168.0.148         TCP      66     http > 55461 [ACK] Seq=550 Ack=384 Win=66560 Len=0 TSval=721508904 TSecr=350464105
+   9724 295.982380000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9706#1] 55461 > http [ACK] Seq=384 Ack=550 Win=131216 Len=0 TSval=350464395 TSecr=721508904
+   9725 295.983106000  192.168.0.148         134.0.35.195          TCP      66     55466 > http [FIN, ACK] Seq=383 Ack=7920 Win=131072 Len=0 TSval=350464395 TSecr=721508904
+   9726 295.988598000  192.168.0.148         134.0.35.195          TCP      78     55476 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350464401 TSecr=0 SACK_PERM=1
+   9728 295.994479000  134.0.35.195          192.168.0.148         TCP      74     http > 55468 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508905 TSecr=350464118
+   9729 295.994666000  192.168.0.148         134.0.35.195          TCP      66     55468 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350464407 TSecr=721508905
+   9730 295.995683000  192.168.0.148         134.0.35.195          HTTP     444    GET /imazhet/imazhet/ndertasa.jpg HTTP/1.1 
+   9731 295.998254000  134.0.35.195          192.168.0.148         TCP      74     http > 55470 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508906 TSecr=350464118
+   9732 295.998302000  134.0.35.195          192.168.0.148         TCP      74     http > 55472 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508906 TSecr=350464118
+   9733 295.998375000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350464410 TSecr=721508906
+   9734 295.998375000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350464410 TSecr=721508906
+   9735 295.999622000  192.168.0.148         134.0.35.195          HTTP     446    GET /imazhet/imazhet/100vjetori.jpg HTTP/1.1 
+   9736 296.000428000  192.168.0.148         134.0.35.195          HTTP     447    GET /foto_thumbs/1361884036-lajm.jpg HTTP/1.1 
+   9737 296.003623000  134.0.35.195          192.168.0.148         TCP      74     http > 55474 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508906 TSecr=350464118
+   9738 296.003744000  192.168.0.148         134.0.35.195          TCP      66     55474 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350464415 TSecr=721508906
+   9739 296.004976000  192.168.0.148         134.0.35.195          HTTP     443    GET /imazhet/imazhet/tt_bar1.jpg HTTP/1.1 
+   9741 296.270634000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9742 296.270855000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=10137 Win=131072 Len=0 TSval=350464679 TSecr=721508933
+   9743 296.270921000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9744 296.271208000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9745 296.271256000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=13033 Win=129616 Len=0 TSval=350464679 TSecr=721508933
+   9746 296.271526000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9747 296.271573000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=14481 Win=129616 Len=0 TSval=350464679 TSecr=721508933
+   9748 296.271839000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9749 296.271940000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=15929 Win=131072 Len=0 TSval=350464680 TSecr=721508933
+   9750 296.272151000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9751 296.272197000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=17377 Win=129616 Len=0 TSval=350464680 TSecr=721508933
+   9752 296.272465000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9753 296.272577000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=18825 Win=131072 Len=0 TSval=350464680 TSecr=721508933
+   9754 296.272776000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9755 296.274658000  134.0.35.195          192.168.0.148         TCP      66     http > 55466 [FIN, ACK] Seq=7920 Ack=383 Win=66560 Len=0 TSval=721508933 TSecr=350464394
+   9756 296.274718000  192.168.0.148         134.0.35.195          TCP      66     55466 > http [FIN, ACK] Seq=383 Ack=7921 Win=131072 Len=0 TSval=350464682 TSecr=721508933
+   9757 296.275069000  134.0.35.195          192.168.0.148         TCP      66     http > 55466 [ACK] Seq=7921 Ack=384 Win=66560 Len=0 TSval=721508933 TSecr=350464395
+   9758 296.275112000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9756#1] 55466 > http [ACK] Seq=384 Ack=7921 Win=131072 Len=0 TSval=350464682 TSecr=721508933
+   9759 296.282700000  134.0.35.195          192.168.0.148         TCP      74     http > 55476 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508934 TSecr=350464401
+   9760 296.282782000  192.168.0.148         134.0.35.195          TCP      66     55476 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350464690 TSecr=721508934
+   9761 296.283983000  192.168.0.148         134.0.35.195          HTTP     432    GET /imazhet/more.gif HTTP/1.1 
+   9762 296.292062000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9763 296.292326000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9764 296.292381000  192.168.0.148         134.0.35.195          TCP      66     55468 > http [ACK] Seq=379 Ack=2897 Win=129616 Len=0 TSval=350464699 TSecr=721508935
+   9765 296.297148000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9766 296.297431000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9767 296.297480000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=2897 Win=129616 Len=0 TSval=350464704 TSecr=721508935
+   9768 296.297743000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9769 296.298051000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9770 296.298091000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=2897 Win=129616 Len=0 TSval=350464704 TSecr=721508935
+   9771 296.301715000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9772 296.301994000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9773 296.302037000  192.168.0.148         134.0.35.195          TCP      66     55474 > http [ACK] Seq=378 Ack=2897 Win=129616 Len=0 TSval=350464708 TSecr=721508935
+   9782 296.421406000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=20273 Win=131072 Len=0 TSval=350464826 TSecr=721508933
+   9808 296.563577000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9809 296.563821000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9810 296.563900000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=23169 Win=128176 Len=0 TSval=350464966 TSecr=721508962
+   9811 296.564180000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9812 296.564338000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=24617 Win=131072 Len=0 TSval=350464966 TSecr=721508962
+   9813 296.564490000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9814 296.564792000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9815 296.564847000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=27513 Win=129616 Len=0 TSval=350464967 TSecr=721508962
+   9816 296.565109000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9817 296.565259000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=28961 Win=131072 Len=0 TSval=350464967 TSecr=721508962
+   9818 296.565439000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9819 296.565746000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9820 296.565805000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=31857 Win=129616 Len=0 TSval=350464968 TSecr=721508962
+   9821 296.566061000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9822 296.566240000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=33305 Win=131072 Len=0 TSval=350464968 TSecr=721508962
+   9823 296.566384000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9824 296.566439000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=34753 Win=129616 Len=0 TSval=350464968 TSecr=721508962
+   9825 296.566866000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9826 296.566987000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=36201 Win=131072 Len=0 TSval=350464969 TSecr=721508962
+   9827 296.567185000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9828 296.567533000  134.0.35.195          192.168.0.148         HTTP     1492   HTTP/1.1 200 OK  (JPEG JFIF image)
+   9830 296.567585000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=369 Ack=39075 Win=129632 Len=0 TSval=350464969 TSecr=721508962
+   9831 296.568238000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [FIN, ACK] Seq=369 Ack=39075 Win=131072 Len=0 TSval=350464970 TSecr=721508962
+   9832 296.575870000  192.168.0.148         134.0.35.195          TCP      78     55478 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350464977 TSecr=0 SACK_PERM=1
+   9833 296.579002000  134.0.35.195          192.168.0.148         HTTP     644    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+   9834 296.579111000  192.168.0.148         134.0.35.195          TCP      66     55476 > http [ACK] Seq=367 Ack=579 Win=131184 Len=0 TSval=350464980 TSecr=721508963
+   9835 296.579646000  192.168.0.148         134.0.35.195          TCP      66     55476 > http [FIN, ACK] Seq=367 Ack=579 Win=131184 Len=0 TSval=350464980 TSecr=721508963
+   9836 296.583039000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9837 296.583088000  134.0.35.195          192.168.0.148         HTTP     392    HTTP/1.1 200 OK  (JPEG JFIF image)
+   9838 296.583138000  192.168.0.148         134.0.35.195          TCP      66     55468 > http [ACK] Seq=379 Ack=4671 Win=129296 Len=0 TSval=350464983 TSecr=721508964
+   9839 296.583634000  192.168.0.148         134.0.35.195          TCP      66     55468 > http [FIN, ACK] Seq=379 Ack=4671 Win=131072 Len=0 TSval=350464983 TSecr=721508964
+   9840 296.587175000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9841 296.587337000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=4345 Win=131072 Len=0 TSval=350464987 TSecr=721508964
+   9842 296.587415000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9843 296.587727000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9844 296.587765000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=7241 Win=129616 Len=0 TSval=350464987 TSecr=721508964
+   9845 296.588113000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9846 296.588151000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=8689 Win=129616 Len=0 TSval=350464987 TSecr=721508964
+   9847 296.589743000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9848 296.589867000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=4345 Win=131072 Len=0 TSval=350464989 TSecr=721508965
+   9849 296.590046000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9850 296.590359000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9851 296.590404000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=7241 Win=129616 Len=0 TSval=350464989 TSecr=721508965
+   9852 296.590680000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9853 296.590715000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=8689 Win=129616 Len=0 TSval=350464989 TSecr=721508965
+   9855 296.592854000  134.0.35.195          192.168.0.148         HTTP     186    HTTP/1.1 200 OK  (JPEG JFIF image)
+   9856 296.592922000  192.168.0.148         134.0.35.195          TCP      66     55474 > http [ACK] Seq=378 Ack=3017 Win=130944 Len=0 TSval=350464992 TSecr=721508965
+   9857 296.593437000  192.168.0.148         134.0.35.195          TCP      66     55474 > http [FIN, ACK] Seq=378 Ack=3017 Win=131072 Len=0 TSval=350464992 TSecr=721508965
+   9858 296.597592000  192.168.0.148         134.0.35.195          TCP      78     55480 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350464996 TSecr=0 SACK_PERM=1
+   9859 296.608791000  192.168.0.148         134.0.35.195          TCP      78     55482 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350465007 TSecr=0 SACK_PERM=1
+   9860 296.609080000  192.168.0.148         134.0.35.195          TCP      78     55483 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350465007 TSecr=0 SACK_PERM=1
+   9870 296.858677000  134.0.35.195          192.168.0.148         TCP      66     http > 55459 [ACK] Seq=39075 Ack=370 Win=66560 Len=0 TSval=721508992 TSecr=350464970
+   9871 296.858729000  134.0.35.195          192.168.0.148         TCP      66     http > 55459 [FIN, ACK] Seq=39075 Ack=370 Win=66560 Len=0 TSval=721508992 TSecr=350464970
+   9872 296.858876000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9831#1] 55459 > http [ACK] Seq=370 Ack=39075 Win=131072 Len=0 TSval=350465254 TSecr=721508992
+   9873 296.858877000  192.168.0.148         134.0.35.195          TCP      66     55459 > http [ACK] Seq=370 Ack=39076 Win=131072 Len=0 TSval=350465254 TSecr=721508992
+   9874 296.870533000  134.0.35.195          192.168.0.148         TCP      74     http > 55478 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508993 TSecr=350464977
+   9875 296.870791000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350465265 TSecr=721508993
+   9876 296.871661000  134.0.35.195          192.168.0.148         TCP      66     http > 55476 [FIN, ACK] Seq=579 Ack=367 Win=66560 Len=0 TSval=721508993 TSecr=350464980
+   9877 296.871760000  192.168.0.148         134.0.35.195          TCP      66     55476 > http [FIN, ACK] Seq=367 Ack=580 Win=131184 Len=0 TSval=350465266 TSecr=721508993
+   9878 296.871874000  134.0.35.195          192.168.0.148         TCP      66     http > 55476 [ACK] Seq=580 Ack=368 Win=66560 Len=0 TSval=721508993 TSecr=350464980
+   9879 296.871959000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9877#1] 55476 > http [ACK] Seq=368 Ack=580 Win=131184 Len=0 TSval=350465266 TSecr=721508993
+   9880 296.872714000  134.0.35.195          192.168.0.148         TCP      66     [TCP Previous segment not captured] http > 55468 [ACK] Seq=4672 Ack=380 Win=66560 Len=0 TSval=721508993 TSecr=350464983
+   9881 296.872823000  134.0.35.195          192.168.0.148         TCP      66     http > 55468 [FIN, ACK] Seq=4671 Ack=379 Win=66560 Len=0 TSval=721508993 TSecr=350464983
+   9882 296.872843000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9839#1] 55468 > http [ACK] Seq=380 Ack=4671 Win=131072 Len=0 TSval=350465267 TSecr=721508964
+   9883 296.872866000  192.168.0.148         134.0.35.195          HTTP     447    GET /foto_thumbs/1361790816-lajm.jpg HTTP/1.1 
+   9884 296.872894000  192.168.0.148         134.0.35.195          TCP      66     55468 > http [ACK] Seq=380 Ack=4672 Win=131072 Len=0 TSval=350465267 TSecr=721508993
+   9885 296.879104000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9886 296.879357000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9887 296.879419000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=11585 Win=128176 Len=0 TSval=350465273 TSecr=721508993
+   9888 296.879591000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9889 296.879762000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=13033 Win=131072 Len=0 TSval=350465273 TSecr=721508994
+   9890 296.879902000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9891 296.880209000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9892 296.880289000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=15929 Win=129616 Len=0 TSval=350465274 TSecr=721508994
+   9893 296.880541000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9894 296.880594000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=17377 Win=129616 Len=0 TSval=350465274 TSecr=721508994
+   9895 296.880860000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9896 296.881044000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=18825 Win=131072 Len=0 TSval=350465274 TSecr=721508994
+   9897 296.881167000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9898 296.881224000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=20273 Win=129616 Len=0 TSval=350465274 TSecr=721508994
+   9899 296.881732000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9900 296.881870000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=10137 Win=131072 Len=0 TSval=350465275 TSecr=721508994
+   9901 296.882039000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9902 296.882358000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9903 296.882425000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=13033 Win=129616 Len=0 TSval=350465276 TSecr=721508994
+   9904 296.882675000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9905 296.882821000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=14481 Win=131072 Len=0 TSval=350465276 TSecr=721508994
+   9906 296.882978000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9907 296.883308000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9908 296.883365000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=17377 Win=129616 Len=0 TSval=350465276 TSecr=721508994
+   9909 296.883611000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9910 296.883752000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=18825 Win=131072 Len=0 TSval=350465277 TSecr=721508994
+   9911 296.883925000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9912 296.883977000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=20273 Win=129616 Len=0 TSval=350465277 TSecr=721508994
+   9913 296.884281000  134.0.35.195          192.168.0.148         TCP      66     http > 55474 [FIN, ACK] Seq=3017 Ack=378 Win=66560 Len=0 TSval=721508994 TSecr=350464992
+   9914 296.884372000  134.0.35.195          192.168.0.148         TCP      66     http > 55474 [ACK] Seq=3018 Ack=379 Win=66560 Len=0 TSval=721508994 TSecr=350464992
+   9915 296.884383000  192.168.0.148         134.0.35.195          TCP      66     55474 > http [FIN, ACK] Seq=378 Ack=3018 Win=131072 Len=0 TSval=350465277 TSecr=721508994
+   9916 296.884432000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9915#1] 55474 > http [ACK] Seq=379 Ack=3018 Win=131072 Len=0 TSval=350465277 TSecr=721508994
+   9917 296.891069000  134.0.35.195          192.168.0.148         TCP      74     http > 55480 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508995 TSecr=350464996
+   9918 296.891148000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350465284 TSecr=721508995
+   9921 296.892346000  192.168.0.148         134.0.35.195          HTTP     448    GET /foto_thumbs/1361639552-foto2.jpg HTTP/1.1 
+   9924 296.902384000  134.0.35.195          192.168.0.148         TCP      74     http > 55482 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508996 TSecr=350465007
+   9925 296.902471000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350465294 TSecr=721508996
+   9926 296.903757000  134.0.35.195          192.168.0.148         TCP      74     http > 55483 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721508996 TSecr=350465007
+   9927 296.903820000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350465295 TSecr=721508996
+   9928 296.904907000  192.168.0.148         134.0.35.195          HTTP     447    GET /foto_thumbs/1361557445-5555.jpg HTTP/1.1 
+   9929 296.906216000  192.168.0.148         134.0.35.195          HTTP     451    GET /foto_thumbs/1361538497-njoftim2.jpg HTTP/1.1 
+   9963 297.167905000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9964 297.168157000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9965 297.168253000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=2897 Win=128864 Len=0 TSval=350465547 TSecr=721509022
+   9966 297.171341000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9967 297.171549000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9968 297.171580000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=21721 Win=131072 Len=0 TSval=350465550 TSecr=721509023
+   9969 297.171865000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9970 297.171930000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=24617 Win=129616 Len=0 TSval=350465550 TSecr=721509023
+   9971 297.172035000  134.0.35.195          192.168.0.148         HTTP     692    HTTP/1.1 200 OK  (JPEG JFIF image)
+   9972 297.172096000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=382 Ack=25243 Win=128992 Len=0 TSval=350465550 TSecr=721509023
+   9973 297.172894000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [FIN, ACK] Seq=382 Ack=25243 Win=131072 Len=0 TSval=350465551 TSecr=721509023
+   9974 297.176294000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9975 297.176452000  134.0.35.195          192.168.0.148         HTTP     774    HTTP/1.1 200 OK  (JPEG JFIF image)
+   9976 297.176506000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [ACK] Seq=381 Ack=22429 Win=128912 Len=0 TSval=350465554 TSecr=721509023
+   9977 297.177065000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [FIN, ACK] Seq=381 Ack=22429 Win=131072 Len=0 TSval=350465554 TSecr=721509023
+   9978 297.186669000  192.168.0.148         134.0.35.195          TCP      78     55496 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350465564 TSecr=0 SACK_PERM=1
+   9979 297.186669000  192.168.0.148         134.0.35.195          TCP      78     55494 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350465564 TSecr=0 SACK_PERM=1
+   9980 297.193692000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9981 297.193953000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9983 297.194024000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=2897 Win=129616 Len=0 TSval=350465571 TSecr=721509024
+   9985 297.200063000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9986 297.200338000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9987 297.200386000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=2897 Win=129616 Len=0 TSval=350465577 TSecr=721509026
+   9988 297.200771000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9989 297.201087000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+   9990 297.201129000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=2897 Win=129616 Len=0 TSval=350465577 TSecr=721509026
+  10001 297.457564000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10002 297.457783000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=4345 Win=131072 Len=0 TSval=350465828 TSecr=721509051
+  10003 297.457870000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10004 297.458130000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10005 297.458170000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=7241 Win=129616 Len=0 TSval=350465828 TSecr=721509051
+  10006 297.458445000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10007 297.458485000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=8689 Win=129616 Len=0 TSval=350465828 TSecr=721509051
+  10015 297.462612000  134.0.35.195          192.168.0.148         TCP      66     http > 55472 [ACK] Seq=25243 Ack=383 Win=66560 Len=0 TSval=721509052 TSecr=350465551
+  10016 297.462682000  134.0.35.195          192.168.0.148         TCP      66     http > 55472 [FIN, ACK] Seq=25243 Ack=383 Win=66560 Len=0 TSval=721509052 TSecr=350465551
+  10017 297.462694000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 9973#1] 55472 > http [ACK] Seq=383 Ack=25243 Win=131072 Len=0 TSval=350465832 TSecr=721509052
+  10018 297.462718000  192.168.0.148         134.0.35.195          TCP      66     55472 > http [ACK] Seq=383 Ack=25244 Win=131072 Len=0 TSval=350465832 TSecr=721509052
+  10019 297.467653000  134.0.35.195          192.168.0.148         TCP      66     http > 55470 [FIN, ACK] Seq=22429 Ack=381 Win=66560 Len=0 TSval=721509052 TSecr=350465554
+  10020 297.467657000  134.0.35.195          192.168.0.148         TCP      66     http > 55470 [ACK] Seq=22430 Ack=382 Win=66560 Len=0 TSval=721509053 TSecr=350465554
+  10021 297.467718000  192.168.0.148         134.0.35.195          TCP      66     55470 > http [FIN, ACK] Seq=381 Ack=22430 Win=131072 Len=0 TSval=350465837 TSecr=721509052
+  10022 297.467736000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10021#1] 55470 > http [ACK] Seq=382 Ack=22430 Win=131072 Len=0 TSval=350465837 TSecr=721509053
+  10023 297.480868000  134.0.35.195          192.168.0.148         TCP      74     http > 55496 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509054 TSecr=350465564
+  10024 297.481049000  192.168.0.148         134.0.35.195          TCP      66     55496 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350465850 TSecr=721509054
+  10025 297.482194000  192.168.0.148         134.0.35.195          HTTP     443    GET /imazhet/imazhet/tt_bar2.jpg HTTP/1.1 
+  10026 297.483441000  134.0.35.195          192.168.0.148         TCP      74     http > 55494 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509054 TSecr=350465564
+  10027 297.483505000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350465852 TSecr=721509054
+  10028 297.484439000  192.168.0.148         134.0.35.195          HTTP     447    GET /foto_thumbs/1361534500-lajm.jpg HTTP/1.1 
+  10029 297.485116000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10030 297.485220000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=4345 Win=131072 Len=0 TSval=350465853 TSecr=721509054
+  10031 297.485387000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10032 297.485702000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10033 297.485735000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=7241 Win=129616 Len=0 TSval=350465853 TSecr=721509054
+  10034 297.486022000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10035 297.486053000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=8689 Win=129616 Len=0 TSval=350465853 TSecr=721509054
+  10039 297.489978000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10040 297.490136000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=4345 Win=131072 Len=0 TSval=350465857 TSecr=721509055
+  10041 297.490253000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10042 297.490565000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10043 297.490606000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=7241 Win=129616 Len=0 TSval=350465857 TSecr=721509055
+  10044 297.490893000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10045 297.490941000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=8689 Win=129616 Len=0 TSval=350465857 TSecr=721509055
+  10046 297.491205000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10047 297.491306000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=4345 Win=131072 Len=0 TSval=350465858 TSecr=721509055
+  10048 297.491510000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10049 297.491822000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10050 297.491861000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=7241 Win=129616 Len=0 TSval=350465858 TSecr=721509055
+  10051 297.492149000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10052 297.492181000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=8689 Win=129616 Len=0 TSval=350465858 TSecr=721509055
+  10080 297.747904000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10081 297.748146000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10082 297.748155000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=10137 Win=131072 Len=0 TSval=350466107 TSecr=721509080
+  10083 297.748444000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10084 297.748485000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=13033 Win=129616 Len=0 TSval=350466107 TSecr=721509080
+  10085 297.748768000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10086 297.748892000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=14481 Win=131072 Len=0 TSval=350466107 TSecr=721509081
+  10087 297.749076000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10088 297.749393000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10089 297.749433000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=17377 Win=129616 Len=0 TSval=350466108 TSecr=721509081
+  10090 297.749708000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10091 297.749813000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=18825 Win=131072 Len=0 TSval=350466108 TSecr=721509081
+  10092 297.750023000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10093 297.750060000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=20273 Win=129616 Len=0 TSval=350466108 TSecr=721509081
+  10094 297.776835000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10095 297.777128000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10096 297.777182000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=11585 Win=128176 Len=0 TSval=350466135 TSecr=721509083
+  10097 297.777318000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10098 297.777438000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=13033 Win=131072 Len=0 TSval=350466135 TSecr=721509083
+  10099 297.777624000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10100 297.777938000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10101 297.777986000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=15929 Win=129616 Len=0 TSval=350466136 TSecr=721509083
+  10102 297.778245000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10103 297.778288000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=17377 Win=129616 Len=0 TSval=350466136 TSecr=721509083
+  10104 297.778566000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10105 297.778683000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=18825 Win=131072 Len=0 TSval=350466136 TSecr=721509083
+  10106 297.778881000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10107 297.778932000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=20273 Win=129616 Len=0 TSval=350466136 TSecr=721509083
+  10108 297.779230000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10109 297.779475000  134.0.35.195          192.168.0.148         HTTP     807    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10110 297.779525000  192.168.0.148         134.0.35.195          TCP      66     55496 > http [ACK] Seq=378 Ack=2190 Win=130320 Len=0 TSval=350466137 TSecr=721509084
+  10111 297.780188000  192.168.0.148         134.0.35.195          TCP      66     55496 > http [FIN, ACK] Seq=378 Ack=2190 Win=131072 Len=0 TSval=350466138 TSecr=721509084
+  10112 297.781281000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10113 297.781412000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=10137 Win=131072 Len=0 TSval=350466139 TSecr=721509084
+  10114 297.781579000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10115 297.781885000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10116 297.781924000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=13033 Win=129616 Len=0 TSval=350466139 TSecr=721509084
+  10117 297.782203000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10118 297.782297000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=14481 Win=131072 Len=0 TSval=350466139 TSecr=721509084
+  10119 297.782527000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10120 297.782840000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10121 297.782874000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=17377 Win=129616 Len=0 TSval=350466140 TSecr=721509084
+  10122 297.784028000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10123 297.784143000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=18825 Win=131072 Len=0 TSval=350466141 TSecr=721509084
+  10124 297.784331000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10125 297.784367000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=20273 Win=129616 Len=0 TSval=350466141 TSecr=721509084
+  10126 297.784645000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10127 297.784741000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=10137 Win=131072 Len=0 TSval=350466141 TSecr=721509084
+  10128 297.784959000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10129 297.784997000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=11585 Win=129616 Len=0 TSval=350466141 TSecr=721509084
+  10130 297.785272000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10131 297.785364000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=13033 Win=131072 Len=0 TSval=350466142 TSecr=721509084
+  10132 297.785599000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10133 297.785912000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10134 297.785945000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=15929 Win=129616 Len=0 TSval=350466142 TSecr=721509084
+  10135 297.786229000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10136 297.786260000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=17377 Win=129616 Len=0 TSval=350466143 TSecr=721509084
+  10137 297.786747000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10138 297.787062000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10139 297.787099000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=2897 Win=129616 Len=0 TSval=350466143 TSecr=721509084
+  10140 297.789069000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10141 297.789272000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=18825 Win=131072 Len=0 TSval=350466145 TSecr=721509084
+  10142 297.789371000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10143 297.811473000  192.168.0.148         134.0.35.195          TCP      78     55505 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350466167 TSecr=0 SACK_PERM=1
+  10158 297.930795000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=20273 Win=131072 Len=0 TSval=350466283 TSecr=721509084
+  10192 298.038755000  134.0.35.195          192.168.0.148         HTTP     283    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10193 298.038813000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [ACK] Seq=382 Ack=20490 Win=130848 Len=0 TSval=350466384 TSecr=721509110
+  10194 298.039296000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [FIN, ACK] Seq=382 Ack=20490 Win=131072 Len=0 TSval=350466385 TSecr=721509110
+  10195 298.043407000  192.168.0.148         134.0.35.195          TCP      78     55509 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350466389 TSecr=0 SACK_PERM=1
+  10196 298.069884000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10197 298.070222000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10198 298.070314000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=23169 Win=128176 Len=0 TSval=350466415 TSecr=721509113
+  10199 298.070429000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10200 298.070634000  134.0.35.195          192.168.0.148         HTTP     923    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10201 298.070649000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=24617 Win=131072 Len=0 TSval=350466415 TSecr=721509113
+  10202 298.070689000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [ACK] Seq=383 Ack=25474 Win=130208 Len=0 TSval=350466415 TSecr=721509113
+  10203 298.071385000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [FIN, ACK] Seq=383 Ack=25474 Win=131072 Len=0 TSval=350466416 TSecr=721509113
+  10204 298.071684000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10205 298.071877000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=21721 Win=131072 Len=0 TSval=350466416 TSecr=721509113
+  10206 298.071992000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10207 298.072305000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10208 298.072364000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=24617 Win=129616 Len=0 TSval=350466416 TSecr=721509113
+  10209 298.072616000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10210 298.072739000  134.0.35.195          192.168.0.148         HTTP     331    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10211 298.072763000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=26065 Win=131072 Len=0 TSval=350466417 TSecr=721509113
+  10212 298.072780000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [ACK] Seq=382 Ack=26330 Win=130800 Len=0 TSval=350466417 TSecr=721509113
+  10213 298.072832000  134.0.35.195          192.168.0.148         TCP      66     http > 55496 [FIN, ACK] Seq=2190 Ack=379 Win=66560 Len=0 TSval=721509113 TSecr=350466138
+  10214 298.072884000  192.168.0.148         134.0.35.195          TCP      66     55496 > http [ACK] Seq=379 Ack=2191 Win=131072 Len=0 TSval=350466417 TSecr=721509113
+  10215 298.073339000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [FIN, ACK] Seq=382 Ack=26330 Win=131072 Len=0 TSval=350466417 TSecr=721509113
+  10216 298.077904000  134.0.35.195          192.168.0.148         HTTP     315    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10217 298.077982000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [ACK] Seq=386 Ack=20522 Win=130816 Len=0 TSval=350466422 TSecr=721509114
+  10218 298.078395000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [FIN, ACK] Seq=386 Ack=20522 Win=131072 Len=0 TSval=350466422 TSecr=721509114
+  10219 298.083164000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10220 298.083423000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10221 298.083469000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=4345 Win=131072 Len=0 TSval=350466427 TSecr=721509114
+  10222 298.083654000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10223 298.083696000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=7241 Win=129616 Len=0 TSval=350466427 TSecr=721509114
+  10224 298.084019000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10225 298.084059000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=8689 Win=129616 Len=0 TSval=350466427 TSecr=721509114
+  10226 298.098218000  192.168.0.148         134.0.35.195          TCP      78     55510 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350466441 TSecr=0 SACK_PERM=1
+  10227 298.104130000  192.168.0.148         134.0.35.195          TCP      78     55511 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350466446 TSecr=0 SACK_PERM=1
+  10228 298.104130000  192.168.0.148         134.0.35.195          TCP      78     55512 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350466446 TSecr=0 SACK_PERM=1
+  10229 298.104943000  134.0.35.195          192.168.0.148         TCP      74     http > 55505 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509116 TSecr=350466167
+  10230 298.105034000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350466446 TSecr=721509116
+  10231 298.105936000  192.168.0.148         134.0.35.195          HTTP     447    GET /foto_thumbs/1258119944-lajm.jpg HTTP/1.1 
+  10294 298.327191000  134.0.35.195          192.168.0.148         TCP      66     http > 55478 [FIN, ACK] Seq=20490 Ack=382 Win=66560 Len=0 TSval=721509138 TSecr=350466384
+  10295 298.327282000  134.0.35.195          192.168.0.148         TCP      66     http > 55478 [ACK] Seq=20491 Ack=383 Win=66560 Len=0 TSval=721509139 TSecr=350466385
+  10296 298.327296000  192.168.0.148         134.0.35.195          TCP      66     55478 > http [FIN, ACK] Seq=382 Ack=20491 Win=131072 Len=0 TSval=350466659 TSecr=721509138
+  10297 298.327317000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10296#1] 55478 > http [ACK] Seq=383 Ack=20491 Win=131072 Len=0 TSval=350466659 TSecr=721509139
+  10302 298.335465000  134.0.35.195          192.168.0.148         TCP      74     http > 55509 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509139 TSecr=350466389
+  10303 298.335542000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350466666 TSecr=721509139
+  10311 298.336788000  192.168.0.148         134.0.35.195          HTTP     459    GET /galeri_thumbs/February-27-15-11-34arkiv.jpg HTTP/1.1 
+  10322 298.361705000  134.0.35.195          192.168.0.148         TCP      66     http > 55482 [FIN, ACK] Seq=26330 Ack=382 Win=66560 Len=0 TSval=721509142 TSecr=350466417
+  10323 298.361711000  134.0.35.195          192.168.0.148         TCP      66     http > 55482 [ACK] Seq=26331 Ack=383 Win=66560 Len=0 TSval=721509142 TSecr=350466417
+  10324 298.361836000  192.168.0.148         134.0.35.195          TCP      66     55482 > http [FIN, ACK] Seq=382 Ack=26331 Win=131072 Len=0 TSval=350466691 TSecr=721509142
+  10325 298.361876000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10324#1] 55482 > http [ACK] Seq=383 Ack=26331 Win=131072 Len=0 TSval=350466691 TSecr=721509142
+  10326 298.362108000  134.0.35.195          192.168.0.148         TCP      66     http > 55480 [FIN, ACK] Seq=25474 Ack=383 Win=66560 Len=0 TSval=721509142 TSecr=350466415
+  10327 298.362219000  192.168.0.148         134.0.35.195          TCP      66     55480 > http [FIN, ACK] Seq=383 Ack=25475 Win=131072 Len=0 TSval=350466691 TSecr=721509142
+  10328 298.362528000  134.0.35.195          192.168.0.148         TCP      66     http > 55480 [ACK] Seq=25475 Ack=384 Win=66560 Len=0 TSval=721509142 TSecr=350466416
+  10329 298.362590000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10327#1] 55480 > http [ACK] Seq=384 Ack=25475 Win=131072 Len=0 TSval=350466691 TSecr=721509142
+  10331 298.366481000  134.0.35.195          192.168.0.148         TCP      66     http > 55483 [FIN, ACK] Seq=20522 Ack=386 Win=66560 Len=0 TSval=721509142 TSecr=350466422
+  10332 298.366625000  192.168.0.148         134.0.35.195          TCP      66     55483 > http [FIN, ACK] Seq=386 Ack=20523 Win=131072 Len=0 TSval=350466695 TSecr=721509142
+  10333 298.366695000  134.0.35.195          192.168.0.148         TCP      66     http > 55483 [ACK] Seq=20523 Ack=387 Win=66560 Len=0 TSval=721509142 TSecr=350466422
+  10335 298.366984000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10332#1] 55483 > http [ACK] Seq=387 Ack=20523 Win=131072 Len=0 TSval=350466695 TSecr=721509142
+  10339 298.376182000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10340 298.376355000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=10137 Win=131072 Len=0 TSval=350466702 TSecr=721509143
+  10341 298.376456000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10342 298.376780000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10343 298.376834000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=13033 Win=129616 Len=0 TSval=350466702 TSecr=721509143
+  10344 298.377124000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10345 298.377245000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=14481 Win=131072 Len=0 TSval=350466703 TSecr=721509143
+  10346 298.377403000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10347 298.377714000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10348 298.377759000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=17377 Win=129616 Len=0 TSval=350466703 TSecr=721509143
+  10349 298.378026000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10350 298.378124000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=18825 Win=131072 Len=0 TSval=350466703 TSecr=721509143
+  10351 298.378283000  134.0.35.195          192.168.0.148         HTTP     1161   HTTP/1.1 200 OK  (JPEG JFIF image)
+  10352 298.378332000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=382 Ack=19920 Win=129968 Len=0 TSval=350466704 TSecr=721509143
+  10353 298.378765000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [FIN, ACK] Seq=382 Ack=19920 Win=131072 Len=0 TSval=350466704 TSecr=721509143
+  10354 298.383293000  192.168.0.148         134.0.35.195          TCP      78     55516 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350466708 TSecr=0 SACK_PERM=1
+  10355 298.392024000  134.0.35.195          192.168.0.148         TCP      74     http > 55510 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509145 TSecr=350466441
+  10356 298.392216000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350466716 TSecr=721509145
+  10357 298.393283000  192.168.0.148         134.0.35.195          HTTP     458    GET /galeri_thumbs/February-28-14-23-6foto4.jpg HTTP/1.1 
+  10358 298.397410000  134.0.35.195          192.168.0.148         TCP      74     http > 55511 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509146 TSecr=350466446
+  10359 298.397655000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350466721 TSecr=721509146
+  10360 298.398621000  192.168.0.148         134.0.35.195          HTTP     459    GET /galeri_thumbs/February-28-14-24-31foto3.jpg HTTP/1.1 
+  10361 298.400651000  134.0.35.195          192.168.0.148         TCP      74     http > 55512 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509146 TSecr=350466446
+  10362 298.400781000  192.168.0.148         134.0.35.195          TCP      66     55512 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350466724 TSecr=721509146
+  10363 298.401902000  192.168.0.148         134.0.35.195          HTTP     428    GET /previous.gif HTTP/1.1 
+  10364 298.406613000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10365 298.406778000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10366 298.406837000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=2897 Win=128864 Len=0 TSval=350466729 TSecr=721509146
+  10399 298.634471000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10400 298.634590000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10401 298.634749000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=2897 Win=128864 Len=0 TSval=350466951 TSecr=721509169
+  10404 298.670361000  134.0.35.195          192.168.0.148         TCP      66     http > 55494 [ACK] Seq=19920 Ack=383 Win=66560 Len=0 TSval=721509173 TSecr=350466704
+  10405 298.670409000  134.0.35.195          192.168.0.148         TCP      66     http > 55494 [FIN, ACK] Seq=19920 Ack=383 Win=66560 Len=0 TSval=721509173 TSecr=350466704
+  10406 298.670496000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10353#1] 55494 > http [ACK] Seq=383 Ack=19920 Win=131072 Len=0 TSval=350466986 TSecr=721509173
+  10407 298.670497000  192.168.0.148         134.0.35.195          TCP      66     55494 > http [ACK] Seq=383 Ack=19921 Win=131072 Len=0 TSval=350466986 TSecr=721509173
+  10408 298.676859000  134.0.35.195          192.168.0.148         TCP      74     http > 55516 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509173 TSecr=350466708
+  10409 298.676934000  192.168.0.148         134.0.35.195          TCP      66     55516 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350466992 TSecr=721509173
+  10410 298.677907000  192.168.0.148         134.0.35.195          HTTP     424    GET /next.gif HTTP/1.1 
+  10411 298.690302000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10412 298.690575000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10413 298.690641000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=2897 Win=129616 Len=0 TSval=350467005 TSecr=721509175
+  10414 298.698158000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10415 298.698466000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10416 298.698516000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=2897 Win=129616 Len=0 TSval=350467012 TSecr=721509175
+  10417 298.698787000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10418 298.698933000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=4345 Win=131072 Len=0 TSval=350467012 TSecr=721509175
+  10419 298.699095000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10420 298.699414000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10421 298.699457000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=7241 Win=129616 Len=0 TSval=350467013 TSecr=721509175
+  10422 298.699730000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10423 298.699783000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=8689 Win=129616 Len=0 TSval=350467013 TSecr=721509175
+  10424 298.699887000  134.0.35.195          192.168.0.148         HTTP     588    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+  10425 298.699925000  192.168.0.148         134.0.35.195          TCP      66     55512 > http [ACK] Seq=363 Ack=523 Win=131232 Len=0 TSval=350467013 TSecr=721509175
+  10426 298.700785000  192.168.0.148         134.0.35.195          TCP      66     55512 > http [FIN, ACK] Seq=363 Ack=523 Win=131232 Len=0 TSval=350467014 TSecr=721509175
+  10427 298.708118000  192.168.0.148         134.0.35.195          TCP      78     55517 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350467021 TSecr=0 SACK_PERM=1
+  10476 298.924488000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10477 298.924618000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=4345 Win=131072 Len=0 TSval=350467232 TSecr=721509198
+  10478 298.927689000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10479 298.928007000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10480 298.928067000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=7241 Win=129616 Len=0 TSval=350467235 TSecr=721509198
+  10481 298.928317000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10482 298.928366000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=8689 Win=129616 Len=0 TSval=350467235 TSecr=721509198
+  10499 298.991164000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10500 298.991501000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10501 298.991557000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=5793 Win=128176 Len=0 TSval=350467295 TSecr=721509205
+  10502 298.991686000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10503 298.991803000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=7241 Win=131072 Len=0 TSval=350467295 TSecr=721509205
+  10504 298.992006000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10505 298.992052000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=8689 Win=129616 Len=0 TSval=350467295 TSecr=721509205
+  10506 298.992324000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10507 298.992426000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=4345 Win=131072 Len=0 TSval=350467296 TSecr=721509205
+  10508 298.992637000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10509 298.992944000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10510 298.992988000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=7241 Win=129616 Len=0 TSval=350467296 TSecr=721509205
+  10511 298.993259000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10512 298.993298000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=8689 Win=129616 Len=0 TSval=350467296 TSecr=721509205
+  10513 298.993606000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10514 298.993725000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=10137 Win=131072 Len=0 TSval=350467297 TSecr=721509205
+  10515 298.993919000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10516 298.994230000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10517 298.994272000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=13033 Win=129616 Len=0 TSval=350467297 TSecr=721509205
+  10518 298.994552000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10519 298.994665000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=14481 Win=131072 Len=0 TSval=350467298 TSecr=721509205
+  10520 298.994872000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10521 298.995190000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10522 298.995244000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=17377 Win=129616 Len=0 TSval=350467298 TSecr=721509205
+  10523 298.995491000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10524 298.995608000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=18825 Win=131072 Len=0 TSval=350467299 TSecr=721509205
+  10525 298.995812000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10526 298.995844000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=20273 Win=129616 Len=0 TSval=350467299 TSecr=721509205
+  10527 298.996245000  134.0.35.195          192.168.0.148         TCP      66     http > 55512 [FIN, ACK] Seq=523 Ack=363 Win=66560 Len=0 TSval=721509205 TSecr=350467013
+  10528 298.996282000  192.168.0.148         134.0.35.195          TCP      66     55512 > http [FIN, ACK] Seq=363 Ack=524 Win=131232 Len=0 TSval=350467299 TSecr=721509205
+  10529 298.996342000  134.0.35.195          192.168.0.148         TCP      66     http > 55512 [ACK] Seq=524 Ack=364 Win=66560 Len=0 TSval=721509205 TSecr=350467014
+  10530 298.996368000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10528#1] 55512 > http [ACK] Seq=364 Ack=524 Win=131232 Len=0 TSval=350467299 TSecr=721509205
+  10531 298.996527000  134.0.35.195          192.168.0.148         HTTP     589    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+  10532 298.996578000  192.168.0.148         134.0.35.195          TCP      66     55516 > http [ACK] Seq=359 Ack=524 Win=131232 Len=0 TSval=350467299 TSecr=721509205
+  10535 298.997184000  192.168.0.148         134.0.35.195          TCP      66     55516 > http [FIN, ACK] Seq=359 Ack=524 Win=131232 Len=0 TSval=350467300 TSecr=721509205
+  10536 299.000426000  134.0.35.195          192.168.0.148         TCP      74     http > 55517 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509206 TSecr=350467021
+  10537 299.000503000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350467303 TSecr=721509206
+  10538 299.001550000  192.168.0.148         134.0.35.195          HTTP     449    GET /foto_thumbs/1356974665-kmurim.JPG HTTP/1.1 
+  10539 299.002786000  192.168.0.148         134.0.35.195          TCP      78     55518 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350467305 TSecr=0 SACK_PERM=1
+  10550 299.219203000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10551 299.219433000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=10137 Win=131072 Len=0 TSval=350467518 TSecr=721509228
+  10552 299.219502000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10553 299.219802000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10554 299.219838000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=13033 Win=129616 Len=0 TSval=350467518 TSecr=721509228
+  10555 299.220110000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10556 299.220207000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=14481 Win=131072 Len=0 TSval=350467518 TSecr=721509228
+  10557 299.220432000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10558 299.220743000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10559 299.220780000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=17377 Win=129616 Len=0 TSval=350467519 TSecr=721509228
+  10560 299.221055000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10561 299.221144000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=18825 Win=131072 Len=0 TSval=350467519 TSecr=721509228
+  10562 299.221375000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10566 299.286168000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10567 299.286323000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=10137 Win=131072 Len=0 TSval=350467582 TSecr=721509234
+  10568 299.286424000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10569 299.286740000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10570 299.286778000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=13033 Win=129616 Len=0 TSval=350467582 TSecr=721509234
+  10571 299.287057000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10572 299.287172000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=14481 Win=131072 Len=0 TSval=350467582 TSecr=721509234
+  10573 299.287371000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10574 299.288471000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10575 299.288536000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=17377 Win=129616 Len=0 TSval=350467584 TSecr=721509234
+  10576 299.288771000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10577 299.288857000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=18825 Win=131072 Len=0 TSval=350467584 TSecr=721509234
+  10578 299.289093000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10579 299.289132000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=20273 Win=129616 Len=0 TSval=350467584 TSecr=721509234
+  10580 299.289397000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10581 299.289546000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=10137 Win=131072 Len=0 TSval=350467585 TSecr=721509234
+  10582 299.289715000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10583 299.289758000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=11585 Win=129616 Len=0 TSval=350467585 TSecr=721509234
+  10584 299.290030000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10585 299.290127000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=13033 Win=131072 Len=0 TSval=350467585 TSecr=721509234
+  10586 299.290338000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10587 299.290653000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10588 299.290693000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=15929 Win=129616 Len=0 TSval=350467586 TSecr=721509234
+  10589 299.291434000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10590 299.291480000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=17377 Win=129616 Len=0 TSval=350467586 TSecr=721509234
+  10591 299.291755000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10592 299.291998000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=21721 Win=131072 Len=0 TSval=350467587 TSecr=721509235
+  10593 299.292069000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10594 299.292381000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10595 299.292417000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=24617 Win=129616 Len=0 TSval=350467587 TSecr=721509235
+  10596 299.292696000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10597 299.292802000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=26065 Win=131072 Len=0 TSval=350467588 TSecr=721509235
+  10598 299.293016000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10599 299.293323000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10600 299.293360000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=28961 Win=129616 Len=0 TSval=350467588 TSecr=721509235
+  10601 299.293637000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10602 299.293739000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=30409 Win=131072 Len=0 TSval=350467588 TSecr=721509235
+  10603 299.294088000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10604 299.294128000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=31857 Win=129616 Len=0 TSval=350467589 TSecr=721509235
+  10605 299.294402000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10606 299.294725000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10607 299.294735000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=18825 Win=131072 Len=0 TSval=350467589 TSecr=721509235
+  10608 299.294990000  134.0.35.195          192.168.0.148         HTTP     1272   HTTP/1.1 200 OK  (JPEG JFIF image)
+  10609 299.295029000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [ACK] Seq=382 Ack=33063 Win=129856 Len=0 TSval=350467589 TSecr=721509235
+  10610 299.295075000  134.0.35.195          192.168.0.148         TCP      66     [TCP Previous segment not captured] http > 55516 [ACK] Seq=525 Ack=360 Win=66560 Len=0 TSval=721509235 TSecr=350467300
+  10611 299.295109000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10535#1] 55516 > http [ACK] Seq=360 Ack=524 Win=131232 Len=0 TSval=350467589 TSecr=721509205
+  10612 299.295166000  134.0.35.195          192.168.0.148         TCP      66     http > 55516 [FIN, ACK] Seq=524 Ack=359 Win=66560 Len=0 TSval=721509235 TSecr=350467299
+  10613 299.295198000  192.168.0.148         134.0.35.195          TCP      66     55516 > http [ACK] Seq=360 Ack=525 Win=131232 Len=0 TSval=350467590 TSecr=721509235
+  10614 299.295616000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [FIN, ACK] Seq=382 Ack=33063 Win=131072 Len=0 TSval=350467590 TSecr=721509235
+  10615 299.300560000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10616 299.300870000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10617 299.300942000  134.0.35.195          192.168.0.148         TCP      74     http > 55518 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509236 TSecr=350467305
+  10618 299.300956000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=2897 Win=129616 Len=0 TSval=350467595 TSecr=721509235
+  10619 299.300980000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350467595 TSecr=721509236
+  10620 299.302066000  192.168.0.148         134.0.35.195          HTTP     451    GET /foto_thumbs/1337024885-konfnato.JPG HTTP/1.1 
+  10621 299.302839000  192.168.0.148         134.0.35.195          TCP      78     55519 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350467596 TSecr=0 SACK_PERM=1
+  10622 299.339524000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=20273 Win=131072 Len=0 TSval=350467633 TSecr=721509228
+  10623 299.439824000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=20273 Win=131072 Len=0 TSval=350467733 TSecr=721509235
+  10624 299.511089000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10625 299.511330000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10626 299.511382000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=23169 Win=129616 Len=0 TSval=350467804 TSecr=721509257
+  10627 299.512910000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10628 299.513065000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=24617 Win=131072 Len=0 TSval=350467805 TSecr=721509257
+  10629 299.513181000  134.0.35.195          192.168.0.148         HTTP     1209   HTTP/1.1 200 OK  (JPEG JFIF image)
+  10630 299.513217000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=394 Ack=25760 Win=129920 Len=0 TSval=350467805 TSecr=721509257
+  10631 299.513658000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [FIN, ACK] Seq=394 Ack=25760 Win=131072 Len=0 TSval=350467805 TSecr=721509257
+  10632 299.518838000  192.168.0.148         134.0.35.195          TCP      78     55520 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350467810 TSecr=0 SACK_PERM=1
+  10642 299.581525000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10643 299.581743000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10644 299.581799000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=23169 Win=128176 Len=0 TSval=350467869 TSecr=721509264
+  10645 299.585977000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10646 299.586186000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10647 299.586241000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=26065 Win=128176 Len=0 TSval=350467873 TSecr=721509264
+  10648 299.586441000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10649 299.586545000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=27513 Win=131072 Len=0 TSval=350467873 TSecr=721509264
+  10650 299.586761000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10651 299.586808000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=28961 Win=129616 Len=0 TSval=350467873 TSecr=721509264
+  10652 299.587081000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10653 299.587194000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=30409 Win=131072 Len=0 TSval=350467874 TSecr=721509264
+  10654 299.587396000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10655 299.587449000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=31857 Win=129616 Len=0 TSval=350467874 TSecr=721509264
+  10656 299.587604000  134.0.35.195          192.168.0.148         HTTP     917    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10657 299.587655000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [ACK] Seq=394 Ack=32708 Win=130208 Len=0 TSval=350467874 TSecr=721509264
+  10658 299.588160000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [FIN, ACK] Seq=394 Ack=32708 Win=131072 Len=0 TSval=350467875 TSecr=721509264
+  10659 299.589598000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10660 299.589903000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10661 299.589962000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=23169 Win=129616 Len=0 TSval=350467876 TSecr=721509265
+  10662 299.590207000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10663 299.590297000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=24617 Win=131072 Len=0 TSval=350467876 TSecr=721509265
+  10664 299.590515000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10665 299.590590000  134.0.35.195          192.168.0.148         HTTP     71     HTTP/1.1 200 OK  (JPEG JFIF image)
+  10666 299.590625000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=393 Ack=26070 Win=129616 Len=0 TSval=350467876 TSecr=721509265
+  10667 299.591014000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [FIN, ACK] Seq=393 Ack=26070 Win=131072 Len=0 TSval=350467877 TSecr=721509265
+  10668 299.592093000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10669 299.592237000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=4345 Win=131072 Len=0 TSval=350467878 TSecr=721509265
+  10670 299.592405000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10671 299.592669000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10672 299.592705000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=7241 Win=129616 Len=0 TSval=350467878 TSecr=721509265
+  10673 299.593020000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10674 299.593081000  134.0.35.195          192.168.0.148         TCP      66     http > 55505 [FIN, ACK] Seq=33063 Ack=382 Win=66560 Len=0 TSval=721509265 TSecr=350467589
+  10675 299.593087000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=8689 Win=129616 Len=0 TSval=350467878 TSecr=721509265
+  10676 299.593114000  192.168.0.148         134.0.35.195          TCP      66     55505 > http [FIN, ACK] Seq=382 Ack=33064 Win=131072 Len=0 TSval=350467878 TSecr=721509265
+  10677 299.593167000  134.0.35.195          192.168.0.148         TCP      66     http > 55505 [ACK] Seq=33064 Ack=383 Win=66560 Len=0 TSval=721509265 TSecr=350467590
+  10678 299.593208000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10676#1] 55505 > http [ACK] Seq=383 Ack=33064 Win=131072 Len=0 TSval=350467879 TSecr=721509265
+  10679 299.596253000  134.0.35.195          192.168.0.148         TCP      74     http > 55519 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509265 TSecr=350467596
+  10680 299.596313000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350467882 TSecr=721509265
+  10681 299.597276000  192.168.0.148         134.0.35.195          HTTP     455    GET /foto_thumbs/1337024721-berishamonti.jpg HTTP/1.1 
+  10682 299.599795000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10683 299.599974000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10684 299.600025000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=2897 Win=129616 Len=0 TSval=350467885 TSecr=721509265
+  10685 299.607391000  192.168.0.148         134.0.35.195          TCP      78     55521 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350467892 TSecr=0 SACK_PERM=1
+  10686 299.607415000  192.168.0.148         134.0.35.195          TCP      78     55522 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350467892 TSecr=0 SACK_PERM=1
+  10689 299.802657000  134.0.35.195          192.168.0.148         TCP      66     http > 55509 [ACK] Seq=25760 Ack=395 Win=66560 Len=0 TSval=721509286 TSecr=350467805
+  10690 299.802718000  134.0.35.195          192.168.0.148         TCP      66     http > 55509 [FIN, ACK] Seq=25760 Ack=395 Win=66560 Len=0 TSval=721509286 TSecr=350467805
+  10691 299.802937000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10631#1] 55509 > http [ACK] Seq=395 Ack=25760 Win=131072 Len=0 TSval=350468085 TSecr=721509286
+  10692 299.802938000  192.168.0.148         134.0.35.195          TCP      66     55509 > http [ACK] Seq=395 Ack=25761 Win=131072 Len=0 TSval=350468085 TSecr=721509286
+  10693 299.810762000  134.0.35.195          192.168.0.148         TCP      74     http > 55520 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509287 TSecr=350467810
+  10694 299.810897000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350468093 TSecr=721509287
+  10695 299.812830000  192.168.0.148         134.0.35.195          HTTP     454    GET /foto_thumbs/1337024275-berishafyle.JPG HTTP/1.1 
+  10696 299.878246000  134.0.35.195          192.168.0.148         TCP      66     http > 55511 [FIN, ACK] Seq=32708 Ack=394 Win=66560 Len=0 TSval=721509294 TSecr=350467874
+  10697 299.878382000  192.168.0.148         134.0.35.195          TCP      66     55511 > http [FIN, ACK] Seq=394 Ack=32709 Win=131072 Len=0 TSval=350468159 TSecr=721509294
+  10698 299.879104000  134.0.35.195          192.168.0.148         TCP      66     http > 55511 [ACK] Seq=32709 Ack=395 Win=66560 Len=0 TSval=721509294 TSecr=350467875
+  10699 299.879173000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10697#1] 55511 > http [ACK] Seq=395 Ack=32709 Win=131072 Len=0 TSval=350468159 TSecr=721509294
+  10700 299.881181000  134.0.35.195          192.168.0.148         TCP      66     http > 55510 [ACK] Seq=26070 Ack=394 Win=66560 Len=0 TSval=721509294 TSecr=350467877
+  10701 299.881380000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10667#1] 55510 > http [ACK] Seq=394 Ack=26070 Win=131072 Len=0 TSval=350468161 TSecr=721509294
+  10702 299.883458000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10703 299.883656000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10704 299.883708000  134.0.35.195          192.168.0.148         TCP      66     http > 55510 [FIN, ACK] Seq=26070 Ack=394 Win=66560 Len=0 TSval=721509294 TSecr=350467877
+  10705 299.883717000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=10137 Win=131072 Len=0 TSval=350468163 TSecr=721509294
+  10706 299.883770000  192.168.0.148         134.0.35.195          TCP      66     55510 > http [ACK] Seq=394 Ack=26071 Win=131072 Len=0 TSval=350468163 TSecr=721509294
+  10707 299.884042000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10708 299.884083000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=13033 Win=129616 Len=0 TSval=350468163 TSecr=721509294
+  10709 299.884355000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10710 299.884460000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=14481 Win=131072 Len=0 TSval=350468163 TSecr=721509294
+  10711 299.884674000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10712 299.884982000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10713 299.885034000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=17377 Win=129616 Len=0 TSval=350468164 TSecr=721509294
+  10714 299.885308000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10715 299.885401000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=18825 Win=131072 Len=0 TSval=350468164 TSecr=721509294
+  10716 299.886041000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10717 299.886090000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=20273 Win=129616 Len=0 TSval=350468165 TSecr=721509294
+  10718 299.891558000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10719 299.891837000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10720 299.891902000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=4345 Win=131072 Len=0 TSval=350468170 TSecr=721509295
+  10721 299.892044000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10722 299.892087000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=7241 Win=129616 Len=0 TSval=350468170 TSecr=721509295
+  10723 299.892360000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10724 299.892401000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=8689 Win=129616 Len=0 TSval=350468170 TSecr=721509295
+  10725 299.893126000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10726 299.893437000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10727 299.893480000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=2897 Win=129616 Len=0 TSval=350468171 TSecr=721509295
+  10728 299.899383000  134.0.35.195          192.168.0.148         TCP      74     http > 55521 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509296 TSecr=350467892
+  10729 299.899551000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350468177 TSecr=721509296
+  10730 299.900496000  192.168.0.148         134.0.35.195          HTTP     456    GET /foto_thumbs/1296577574-konf-28-janar.jpg HTTP/1.1 
+  10731 299.903525000  134.0.35.195          192.168.0.148         TCP      74     http > 55522 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509296 TSecr=350467892
+  10732 299.903613000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350468181 TSecr=721509296
+  10733 299.904741000  192.168.0.148         134.0.35.195          HTTP     458    GET /foto_thumbs/1335786070-berisha-klinton.jpg HTTP/1.1 
+  10734 300.107926000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10735 300.108131000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10736 300.108227000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=389 Ack=2897 Win=128864 Len=0 TSval=350468384 TSecr=721509316
+  10737 300.174514000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10738 300.174746000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10739 300.174842000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=21721 Win=131072 Len=0 TSval=350468450 TSecr=721509323
+  10740 300.174842000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=23169 Win=129616 Len=0 TSval=350468450 TSecr=721509323
+  10741 300.175841000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10742 300.176172000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10743 300.176259000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=26065 Win=129616 Len=0 TSval=350468451 TSecr=721509323
+  10744 300.176341000  134.0.35.195          192.168.0.148         HTTP     800    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10745 300.176408000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [ACK] Seq=384 Ack=26799 Win=128880 Len=0 TSval=350468451 TSecr=721509323
+  10746 300.177076000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [FIN, ACK] Seq=384 Ack=26799 Win=131072 Len=0 TSval=350468452 TSecr=721509323
+  10747 300.184214000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10748 300.184411000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=4345 Win=131072 Len=0 TSval=350468459 TSecr=721509324
+  10749 300.184482000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10750 300.184784000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10751 300.184846000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=7241 Win=129616 Len=0 TSval=350468459 TSecr=721509324
+  10752 300.185103000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10753 300.185157000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=8689 Win=129616 Len=0 TSval=350468459 TSecr=721509324
+  10754 300.185193000  192.168.0.148         134.0.35.195          TCP      78     55523 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350468459 TSecr=0 SACK_PERM=1
+  10755 300.185411000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10756 300.185532000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=10137 Win=131072 Len=0 TSval=350468460 TSecr=721509324
+  10757 300.185726000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10758 300.186033000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10759 300.186076000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=13033 Win=129616 Len=0 TSval=350468460 TSecr=721509324
+  10760 300.186362000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10761 300.186457000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=14481 Win=131072 Len=0 TSval=350468461 TSecr=721509324
+  10762 300.186700000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10763 300.187012000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10764 300.187046000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=17377 Win=129616 Len=0 TSval=350468461 TSecr=721509324
+  10765 300.187362000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10766 300.187470000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=18825 Win=131072 Len=0 TSval=350468462 TSecr=721509324
+  10767 300.187668000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10768 300.187735000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=20273 Win=129616 Len=0 TSval=350468462 TSecr=721509324
+  10769 300.195546000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10770 300.195809000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10771 300.195869000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=2897 Win=129616 Len=0 TSval=350468470 TSecr=721509325
+  10772 300.201138000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10773 300.201418000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10774 300.201467000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=2897 Win=129616 Len=0 TSval=350468475 TSecr=721509325
+  10775 300.397964000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10776 300.398312000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10777 300.398427000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=389 Ack=5793 Win=128176 Len=0 TSval=350468670 TSecr=721509345
+  10778 300.398513000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10779 300.398681000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=389 Ack=7241 Win=131072 Len=0 TSval=350468670 TSecr=721509345
+  10780 300.398780000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10781 300.398845000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=389 Ack=8689 Win=129616 Len=0 TSval=350468670 TSecr=721509345
+  10782 300.465502000  134.0.35.195          192.168.0.148         TCP      66     http > 55517 [FIN, ACK] Seq=26799 Ack=384 Win=66560 Len=0 TSval=721509352 TSecr=350468451
+  10783 300.465555000  134.0.35.195          192.168.0.148         TCP      66     http > 55517 [ACK] Seq=26800 Ack=385 Win=66560 Len=0 TSval=721509352 TSecr=350468452
+  10784 300.465696000  192.168.0.148         134.0.35.195          TCP      66     55517 > http [FIN, ACK] Seq=384 Ack=26800 Win=131072 Len=0 TSval=350468736 TSecr=721509352
+  10785 300.465697000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10784#1] 55517 > http [ACK] Seq=385 Ack=26800 Win=131072 Len=0 TSval=350468736 TSecr=721509352
+  10786 300.478477000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10787 300.478700000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=10137 Win=131072 Len=0 TSval=350468748 TSecr=721509353
+  10788 300.479446000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10789 300.479760000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10790 300.479824000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=13033 Win=129616 Len=0 TSval=350468749 TSecr=721509353
+  10791 300.480072000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10792 300.480276000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=14481 Win=131072 Len=0 TSval=350468749 TSecr=721509353
+  10793 300.480423000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10794 300.480743000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10795 300.480802000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=17377 Win=129616 Len=0 TSval=350468750 TSecr=721509353
+  10796 300.481045000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10797 300.481181000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=18825 Win=131072 Len=0 TSval=350468750 TSecr=721509353
+  10798 300.481364000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10799 300.481445000  134.0.35.195          192.168.0.148         TCP      74     http > 55523 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509354 TSecr=350468459
+  10800 300.481465000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=20273 Win=129616 Len=0 TSval=350468750 TSecr=721509353
+  10801 300.481513000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350468750 TSecr=721509354
+  10802 300.482945000  192.168.0.148         134.0.35.195          HTTP     430    GET /logo-final.jpg HTTP/1.1 
+  10803 300.483153000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10804 300.483269000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=21721 Win=131072 Len=0 TSval=350468752 TSecr=721509354
+  10805 300.483460000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10806 300.483498000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=23169 Win=129616 Len=0 TSval=350468752 TSecr=721509354
+  10807 300.484144000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10808 300.484327000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=24617 Win=131072 Len=0 TSval=350468753 TSecr=721509354
+  10809 300.484451000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10810 300.484761000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10811 300.484810000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=27513 Win=129616 Len=0 TSval=350468753 TSecr=721509354
+  10812 300.485071000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10813 300.485180000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=28961 Win=131072 Len=0 TSval=350468753 TSecr=721509354
+  10814 300.485396000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10815 300.485704000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10816 300.485748000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=31857 Win=129616 Len=0 TSval=350468754 TSecr=721509354
+  10817 300.485824000  134.0.35.195          192.168.0.148         HTTP     348    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10818 300.485871000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [ACK] Seq=386 Ack=32139 Win=129328 Len=0 TSval=350468754 TSecr=721509354
+  10819 300.486167000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10820 300.486499000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10821 300.486556000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=5793 Win=128176 Len=0 TSval=350468755 TSecr=721509354
+  10822 300.486568000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [FIN, ACK] Seq=386 Ack=32139 Win=131072 Len=0 TSval=350468755 TSecr=721509354
+  10823 300.486805000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10824 300.486896000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=7241 Win=131072 Len=0 TSval=350468755 TSecr=721509354
+  10825 300.487119000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10826 300.487161000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=8689 Win=129616 Len=0 TSval=350468755 TSecr=721509354
+  10827 300.492476000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10828 300.492639000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=4345 Win=131072 Len=0 TSval=350468760 TSecr=721509355
+  10829 300.492735000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10830 300.493051000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10831 300.493090000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=7241 Win=129616 Len=0 TSval=350468760 TSecr=721509355
+  10832 300.493364000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10833 300.493411000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=8689 Win=129616 Len=0 TSval=350468760 TSecr=721509355
+  10834 300.493876000  192.168.0.148         134.0.35.195          TCP      78     55525 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350468761 TSecr=0 SACK_PERM=1
+  10835 300.688731000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10836 300.688976000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10837 300.688991000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=389 Ack=10137 Win=131072 Len=0 TSval=350468954 TSecr=721509374
+  10838 300.689247000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10839 300.689300000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=389 Ack=13033 Win=129616 Len=0 TSval=350468954 TSecr=721509374
+  10840 300.689556000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10841 300.689647000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=389 Ack=14481 Win=131072 Len=0 TSval=350468954 TSecr=721509374
+  10842 300.689920000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10843 300.690007000  134.0.35.195          192.168.0.148         HTTP     400    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10844 300.690040000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=389 Ack=16263 Win=130736 Len=0 TSval=350468955 TSecr=721509374
+  10845 300.690631000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [FIN, ACK] Seq=389 Ack=16263 Win=131072 Len=0 TSval=350468955 TSecr=721509374
+  10846 300.692184000  192.168.0.148         134.0.35.195          TCP      78     55526 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350468957 TSecr=0 SACK_PERM=1
+  10847 300.771434000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10848 300.771714000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10849 300.771765000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=23169 Win=128176 Len=0 TSval=350469035 TSecr=721509383
+  10850 300.772137000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10851 300.772232000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=24617 Win=131072 Len=0 TSval=350469035 TSecr=721509383
+  10852 300.772398000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10853 300.772764000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10854 300.772819000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=27513 Win=129616 Len=0 TSval=350469036 TSecr=721509383
+  10855 300.773017000  134.0.35.195          192.168.0.148         HTTP     1388   HTTP/1.1 200 OK  (JPEG JFIF image)
+  10856 300.773052000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=390 Ack=28835 Win=129744 Len=0 TSval=350469036 TSecr=721509383
+  10857 300.773457000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [FIN, ACK] Seq=390 Ack=28835 Win=131072 Len=0 TSval=350469036 TSecr=721509383
+  10858 300.774839000  192.168.0.148         134.0.35.195          TCP      78     55527 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350469037 TSecr=0 SACK_PERM=1
+  10859 300.779205000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10860 300.779368000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=10137 Win=131072 Len=0 TSval=350469041 TSecr=721509383
+  10861 300.779472000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10862 300.779779000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10863 300.779823000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=13033 Win=129616 Len=0 TSval=350469041 TSecr=721509383
+  10864 300.780099000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10865 300.780193000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=14481 Win=131072 Len=0 TSval=350469041 TSecr=721509383
+  10866 300.780406000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10867 300.780768000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10868 300.780820000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=17377 Win=129616 Len=0 TSval=350469042 TSecr=721509383
+  10869 300.781033000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10870 300.781118000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=18825 Win=131072 Len=0 TSval=350469042 TSecr=721509383
+  10871 300.781388000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10872 300.781637000  134.0.35.195          192.168.0.148         TCP      66     http > 55518 [FIN, ACK] Seq=32139 Ack=386 Win=66560 Len=0 TSval=721509383 TSecr=350468754
+  10873 300.781674000  192.168.0.148         134.0.35.195          TCP      66     55518 > http [FIN, ACK] Seq=386 Ack=32140 Win=131072 Len=0 TSval=350469043 TSecr=721509383
+  10874 300.781999000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10875 300.782295000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10876 300.782379000  134.0.35.195          192.168.0.148         TCP      66     http > 55518 [ACK] Seq=32140 Ack=387 Win=66560 Len=0 TSval=721509384 TSecr=350468755
+  10877 300.782388000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=2897 Win=129616 Len=0 TSval=350469043 TSecr=721509383
+  10878 300.782413000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10873#1] 55518 > http [ACK] Seq=387 Ack=32140 Win=131072 Len=0 TSval=350469043 TSecr=721509384
+  10879 300.784288000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10880 300.784500000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=10137 Win=131072 Len=0 TSval=350469045 TSecr=721509384
+  10881 300.784581000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10882 300.784620000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=11585 Win=129616 Len=0 TSval=350469045 TSecr=721509384
+  10883 300.784892000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10884 300.784998000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=13033 Win=131072 Len=0 TSval=350469045 TSecr=721509384
+  10885 300.785208000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10886 300.785527000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10887 300.785559000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=15929 Win=129616 Len=0 TSval=350469046 TSecr=721509384
+  10888 300.785839000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10889 300.785870000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=17377 Win=129616 Len=0 TSval=350469046 TSecr=721509384
+  10890 300.786161000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10891 300.786267000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=18825 Win=131072 Len=0 TSval=350469046 TSecr=721509384
+  10892 300.786469000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10893 300.788172000  134.0.35.195          192.168.0.148         TCP      74     http > 55525 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509384 TSecr=350468761
+  10894 300.788386000  192.168.0.148         134.0.35.195          TCP      66     55525 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350469048 TSecr=721509384
+  10895 300.789356000  192.168.0.148         134.0.35.195          HTTP     426    GET /raport.jpg HTTP/1.1 
+  10896 300.948402000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=20273 Win=131072 Len=0 TSval=350469207 TSecr=721509384
+  10897 300.948403000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=20273 Win=131072 Len=0 TSval=350469207 TSecr=721509383
+  10898 300.979121000  134.0.35.195          192.168.0.148         TCP      66     http > 55520 [ACK] Seq=16263 Ack=390 Win=66560 Len=0 TSval=721509404 TSecr=350468955
+  10899 300.979202000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10845#1] 55520 > http [ACK] Seq=390 Ack=16263 Win=131072 Len=0 TSval=350469237 TSecr=721509404
+  10900 300.979501000  134.0.35.195          192.168.0.148         TCP      66     http > 55520 [FIN, ACK] Seq=16263 Ack=390 Win=66560 Len=0 TSval=721509404 TSecr=350468955
+  10901 300.979549000  192.168.0.148         134.0.35.195          TCP      66     55520 > http [ACK] Seq=390 Ack=16264 Win=131072 Len=0 TSval=350469237 TSecr=721509404
+  10902 300.984045000  134.0.35.195          192.168.0.148         TCP      74     http > 55526 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509404 TSecr=350468957
+  10903 300.984248000  192.168.0.148         134.0.35.195          TCP      66     55526 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350469242 TSecr=721509404
+  10904 300.985679000  192.168.0.148         134.0.35.195          HTTP     427    GET /EA_Logo.jpg HTTP/1.1 
+  10905 301.063354000  134.0.35.195          192.168.0.148         TCP      66     http > 55519 [ACK] Seq=28835 Ack=391 Win=66560 Len=0 TSval=721509412 TSecr=350469036
+  10906 301.063494000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10857#1] 55519 > http [ACK] Seq=391 Ack=28835 Win=131072 Len=0 TSval=350469320 TSecr=721509412
+  10907 301.063564000  134.0.35.195          192.168.0.148         TCP      66     http > 55519 [FIN, ACK] Seq=28835 Ack=391 Win=66560 Len=0 TSval=721509412 TSecr=350469036
+  10908 301.063603000  192.168.0.148         134.0.35.195          TCP      66     55519 > http [ACK] Seq=391 Ack=28836 Win=131072 Len=0 TSval=350469320 TSecr=721509412
+  10909 301.068160000  134.0.35.195          192.168.0.148         TCP      74     http > 55527 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509412 TSecr=350469037
+  10910 301.068218000  192.168.0.148         134.0.35.195          TCP      66     55527 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350469324 TSecr=721509412
+  10911 301.069232000  192.168.0.148         134.0.35.195          HTTP     434    GET /logo-e-albania.jpg HTTP/1.1 
+  10912 301.070769000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10913 301.071023000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10914 301.071123000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=23169 Win=128176 Len=0 TSval=350469326 TSecr=721509413
+  10915 301.071726000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10916 301.071822000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=24617 Win=131072 Len=0 TSval=350469326 TSecr=721509413
+  10917 301.071986000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10918 301.072332000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10919 301.072375000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=27513 Win=129616 Len=0 TSval=350469327 TSecr=721509413
+  10920 301.072512000  134.0.35.195          192.168.0.148         HTTP     878    HTTP/1.1 200 OK  (JPEG JFIF image)
+  10921 301.072551000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [ACK] Seq=391 Ack=28325 Win=130256 Len=0 TSval=350469327 TSecr=721509413
+  10922 301.072836000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10923 301.073019000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [FIN, ACK] Seq=391 Ack=28325 Win=131072 Len=0 TSval=350469327 TSecr=721509413
+  10924 301.073156000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10925 301.073181000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=4345 Win=131072 Len=0 TSval=350469328 TSecr=721509413
+  10926 301.073481000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10927 301.073526000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=7241 Win=129616 Len=0 TSval=350469328 TSecr=721509413
+  10928 301.073784000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10929 301.073823000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=8689 Win=129616 Len=0 TSval=350469328 TSecr=721509413
+  10930 301.075131000  192.168.0.148         134.0.35.195          TCP      78     55528 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350469330 TSecr=0 SACK_PERM=1
+  10931 301.079676000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10932 301.079841000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10933 301.079898000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=23169 Win=128176 Len=0 TSval=350469334 TSecr=721509413
+  10934 301.080118000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10935 301.080219000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=24617 Win=131072 Len=0 TSval=350469334 TSecr=721509413
+  10936 301.080435000  134.0.35.195          192.168.0.148         HTTP     1504   HTTP/1.1 200 OK  (JPEG JFIF image)
+  10937 301.080470000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=393 Ack=26055 Win=129632 Len=0 TSval=350469334 TSecr=721509413
+  10938 301.080915000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [FIN, ACK] Seq=393 Ack=26055 Win=131072 Len=0 TSval=350469335 TSecr=721509413
+  10939 301.084020000  192.168.0.148         134.0.35.195          TCP      78     55529 > http [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=16 TSval=350469338 TSecr=0 SACK_PERM=1
+  10940 301.088400000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10941 301.088637000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10942 301.088703000  192.168.0.148         134.0.35.195          TCP      66     55525 > http [ACK] Seq=361 Ack=2897 Win=129616 Len=0 TSval=350469342 TSecr=721509414
+  10943 301.280056000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10944 301.280359000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10945 301.280546000  192.168.0.148         134.0.35.195          TCP      66     55526 > http [ACK] Seq=362 Ack=2897 Win=128864 Len=0 TSval=350469532 TSecr=721509433
+  10946 301.365856000  134.0.35.195          192.168.0.148         TCP      66     http > 55521 [FIN, ACK] Seq=28325 Ack=391 Win=66560 Len=0 TSval=721509442 TSecr=350469327
+  10947 301.365915000  134.0.35.195          192.168.0.148         TCP      66     http > 55521 [ACK] Seq=28326 Ack=392 Win=66560 Len=0 TSval=721509442 TSecr=350469327
+  10948 301.365973000  192.168.0.148         134.0.35.195          TCP      66     55521 > http [FIN, ACK] Seq=391 Ack=28326 Win=131072 Len=0 TSval=350469617 TSecr=721509442
+  10949 301.366001000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10948#1] 55521 > http [ACK] Seq=392 Ack=28326 Win=131072 Len=0 TSval=350469617 TSecr=721509442
+  10950 301.366226000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10951 301.366484000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=10137 Win=131072 Len=0 TSval=350469617 TSecr=721509442
+  10952 301.366580000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10953 301.366869000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10954 301.366944000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=13033 Win=129616 Len=0 TSval=350469617 TSecr=721509442
+  10955 301.367178000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10956 301.367511000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10957 301.367554000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=14481 Win=131072 Len=0 TSval=350469618 TSecr=721509442
+  10958 301.367837000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10959 301.367896000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=17377 Win=129616 Len=0 TSval=350469618 TSecr=721509442
+  10960 301.368467000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10961 301.368623000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=18825 Win=131072 Len=0 TSval=350469619 TSecr=721509442
+  10962 301.368785000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10963 301.368863000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [ACK] Seq=365 Ack=20273 Win=129616 Len=0 TSval=350469619 TSecr=721509442
+  10964 301.369112000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10965 301.369412000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10966 301.369496000  134.0.35.195          192.168.0.148         TCP      74     http > 55528 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509442 TSecr=350469330
+  10967 301.369515000  192.168.0.148         134.0.35.195          TCP      66     55527 > http [ACK] Seq=369 Ack=2897 Win=129616 Len=0 TSval=350469620 TSecr=721509442
+  10968 301.369563000  192.168.0.148         134.0.35.195          TCP      66     55528 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350469620 TSecr=721509442
+  10969 301.371358000  192.168.0.148         134.0.35.195          HTTP     423    GET /bga.jpg HTTP/1.1 
+  10970 301.371453000  134.0.35.195          192.168.0.148         TCP      66     http > 55522 [ACK] Seq=26055 Ack=394 Win=66560 Len=0 TSval=721509443 TSecr=350469335
+  10971 301.371512000  192.168.0.148         134.0.35.195          TCP      66     [TCP Dup ACK 10938#1] 55522 > http [ACK] Seq=394 Ack=26055 Win=131072 Len=0 TSval=350469622 TSecr=721509443
+  10972 301.371851000  134.0.35.195          192.168.0.148         TCP      66     http > 55522 [FIN, ACK] Seq=26055 Ack=394 Win=66560 Len=0 TSval=721509443 TSecr=350469335
+  10973 301.371897000  192.168.0.148         134.0.35.195          TCP      66     55522 > http [ACK] Seq=394 Ack=26056 Win=131072 Len=0 TSval=350469622 TSecr=721509443
+  10974 301.377090000  134.0.35.195          192.168.0.148         TCP      74     http > 55529 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1 TSval=721509443 TSecr=350469338
+  10975 301.377206000  192.168.0.148         134.0.35.195          TCP      66     55529 > http [ACK] Seq=1 Ack=1 Win=131760 Len=0 TSval=350469627 TSecr=721509443
+  10976 301.378372000  192.168.0.148         134.0.35.195          HTTP     435    GET /imazhet/banerat.jpg HTTP/1.1 
+  10977 301.380367000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10978 301.380568000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10979 301.380627000  192.168.0.148         134.0.35.195          TCP      66     55525 > http [ACK] Seq=361 Ack=5793 Win=128176 Len=0 TSval=350469630 TSecr=721509443
+  10980 301.380827000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10981 301.380959000  192.168.0.148         134.0.35.195          TCP      66     55525 > http [ACK] Seq=361 Ack=7241 Win=131072 Len=0 TSval=350469630 TSecr=721509443
+  10982 301.381143000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10983 301.381191000  192.168.0.148         134.0.35.195          TCP      66     55525 > http [ACK] Seq=361 Ack=8689 Win=129616 Len=0 TSval=350469630 TSecr=721509443
+  10984 301.488622000  192.168.0.148         134.0.35.195          TCP      66     55529 > http [FIN, ACK] Seq=370 Ack=1 Win=131760 Len=0 TSval=350469737 TSecr=721509443
+  10985 301.489531000  192.168.0.148         134.0.35.195          TCP      66     55526 > http [FIN, ACK] Seq=362 Ack=2897 Win=131072 Len=0 TSval=350469737 TSecr=721509433
+  10986 301.490292000  192.168.0.148         134.0.35.195          TCP      66     55525 > http [FIN, ACK] Seq=361 Ack=8689 Win=131072 Len=0 TSval=350469738 TSecr=721509443
+  10987 301.491003000  192.168.0.148         134.0.35.195          TCP      66     55527 > http [FIN, ACK] Seq=369 Ack=2897 Win=131072 Len=0 TSval=350469738 TSecr=721509442
+  10988 301.491681000  192.168.0.148         134.0.35.195          TCP      66     55523 > http [FIN, ACK] Seq=365 Ack=20273 Win=131072 Len=0 TSval=350469739 TSecr=721509442
+  10989 301.492227000  192.168.0.148         134.0.35.195          TCP      66     55528 > http [FIN, ACK] Seq=358 Ack=1 Win=131760 Len=0 TSval=350469739 TSecr=721509442
+  10990 301.569895000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10991 301.570004000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10992 301.570168000  192.168.0.148         134.0.35.195          TCP      54     55526 > http [RST] Seq=362 Win=0 Len=0
+  10993 301.570170000  192.168.0.148         134.0.35.195          TCP      54     55526 > http [RST] Seq=362 Win=0 Len=0
+  10994 301.570327000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10995 301.570534000  192.168.0.148         134.0.35.195          TCP      54     55526 > http [RST] Seq=362 Win=0 Len=0
+  10996 301.570714000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10997 301.570834000  192.168.0.148         134.0.35.195          TCP      54     55526 > http [RST] Seq=362 Win=0 Len=0
+  10998 301.659406000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  10999 301.659611000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11000 301.659758000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11001 301.659921000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11002 301.660016000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11003 301.660106000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11004 301.660254000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11005 301.660315000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11006 301.660566000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11007 301.660624000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11008 301.660880000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11009 301.660936000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11010 301.661452000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11011 301.661508000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11012 301.661770000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11013 301.661910000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11014 301.662085000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11015 301.662224000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11016 301.662400000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11017 301.662539000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11018 301.662714000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11019 301.662777000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11020 301.663028000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11021 301.663084000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11022 301.663343000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11023 301.663399000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11024 301.665204000  134.0.35.195          192.168.0.148         HTTP     1405   HTTP/1.1 200 OK  (JPEG JFIF image)
+  11025 301.665465000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=365 Win=0 Len=0
+  11026 301.665597000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11027 301.665647000  134.0.35.195          192.168.0.148         HTTP     825    HTTP/1.1 200 OK  (JPEG JFIF image)
+  11028 301.665722000  192.168.0.148         134.0.35.195          TCP      54     55527 > http [RST] Seq=369 Win=0 Len=0
+  11029 301.665723000  192.168.0.148         134.0.35.195          TCP      54     55527 > http [RST] Seq=369 Win=0 Len=0
+  11030 301.665985000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11031 301.666086000  192.168.0.148         134.0.35.195          TCP      54     55528 > http [RST] Seq=358 Win=0 Len=0
+  11032 301.666274000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11033 301.666335000  192.168.0.148         134.0.35.195          TCP      54     55528 > http [RST] Seq=358 Win=0 Len=0
+  11034 301.673296000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11035 301.673418000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=361 Win=0 Len=0
+  11036 301.674910000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11037 301.675063000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=361 Win=0 Len=0
+  11038 301.675154000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11039 301.675380000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=361 Win=0 Len=0
+  11040 301.675467000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11041 301.675529000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=361 Win=0 Len=0
+  11042 301.675731000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11043 301.675797000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=361 Win=0 Len=0
+  11044 301.676029000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11045 301.676072000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=361 Win=0 Len=0
+  11046 301.676343000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11047 301.676386000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=361 Win=0 Len=0
+  11048 301.676511000  134.0.35.195          192.168.0.148         HTTP     629    HTTP/1.1 200 OK  (JPEG JFIF image)
+  11049 301.676555000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=361 Win=0 Len=0
+  11050 301.676841000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11051 301.676900000  192.168.0.148         134.0.35.195          TCP      54     55529 > http [RST] Seq=370 Win=0 Len=0
+  11052 301.677499000  134.0.35.195          192.168.0.148         TCP      1514   [TCP segment of a reassembled PDU]
+  11053 301.677632000  192.168.0.148         134.0.35.195          TCP      54     55529 > http [RST] Seq=370 Win=0 Len=0
+  11054 301.777267000  134.0.35.195          192.168.0.148         TCP      66     http > 55526 [ACK] Seq=8689 Ack=363 Win=66560 Len=0 TSval=721509483 TSecr=350469737
+  11055 301.777499000  192.168.0.148         134.0.35.195          TCP      54     55526 > http [RST] Seq=363 Win=0 Len=0
+  11056 301.778254000  134.0.35.195          192.168.0.148         TCP      66     http > 55529 [ACK] Seq=2897 Ack=371 Win=66560 Len=0 TSval=721509483 TSecr=350469737
+  11057 301.778389000  192.168.0.148         134.0.35.195          TCP      54     55529 > http [RST] Seq=371 Win=0 Len=0
+  11058 301.780485000  134.0.35.195          192.168.0.148         TCP      66     http > 55523 [ACK] Seq=40436 Ack=366 Win=66560 Len=0 TSval=721509484 TSecr=350469739
+  11059 301.780597000  192.168.0.148         134.0.35.195          TCP      54     55523 > http [RST] Seq=366 Win=0 Len=0
+  11060 301.780979000  134.0.35.195          192.168.0.148         TCP      66     http > 55528 [ACK] Seq=2897 Ack=359 Win=66560 Len=0 TSval=721509484 TSecr=350469739
+  11061 301.781133000  134.0.35.195          192.168.0.148         TCP      66     http > 55525 [ACK] Seq=19388 Ack=362 Win=66560 Len=0 TSval=721509484 TSecr=350469738
+  11062 301.781138000  192.168.0.148         134.0.35.195          TCP      54     55528 > http [RST] Seq=359 Win=0 Len=0
+  11063 301.781150000  192.168.0.148         134.0.35.195          TCP      54     55525 > http [RST] Seq=362 Win=0 Len=0
+  11064 301.781298000  134.0.35.195          192.168.0.148         TCP      66     http > 55527 [ACK] Seq=5104 Ack=370 Win=66560 Len=0 TSval=721509484 TSecr=350469738
+  11065 301.781379000  192.168.0.148         134.0.35.195          TCP      54     55527 > http [RST] Seq=370 Win=0 Len=0

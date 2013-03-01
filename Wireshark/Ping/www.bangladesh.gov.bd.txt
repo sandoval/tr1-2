@@ -1,0 +1,10 @@
+PING www.bangladesh.gov.bd (203.112.217.163): 56 data bytes
+64 bytes from 203.112.217.163: icmp_seq=0 ttl=46 time=501.109 ms
+64 bytes from 203.112.217.163: icmp_seq=1 ttl=45 time=524.413 ms
+64 bytes from 203.112.217.163: icmp_seq=2 ttl=46 time=547.850 ms
+64 bytes from 203.112.217.163: icmp_seq=3 ttl=46 time=571.576 ms
+64 bytes from 203.112.217.163: icmp_seq=4 ttl=46 time=470.984 ms
+
+--- www.bangladesh.gov.bd ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 470.984/523.186/571.576/35.111 ms

@@ -1,0 +1,10 @@
+PING terra.com.br (200.154.56.80): 56 data bytes
+64 bytes from 200.154.56.80: icmp_seq=0 ttl=56 time=57.556 ms
+64 bytes from 200.154.56.80: icmp_seq=1 ttl=56 time=57.999 ms
+64 bytes from 200.154.56.80: icmp_seq=2 ttl=56 time=58.072 ms
+64 bytes from 200.154.56.80: icmp_seq=3 ttl=56 time=57.802 ms
+64 bytes from 200.154.56.80: icmp_seq=4 ttl=56 time=58.978 ms
+
+--- terra.com.br ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 57.556/58.081/58.978/0.483 ms

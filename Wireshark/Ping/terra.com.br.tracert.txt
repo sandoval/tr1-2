@@ -1,0 +1,8 @@
+ 1  dsldevice.lan (192.168.1.1)  2.757 ms  2.536 ms  1.599 ms
+ 2  201-67-102-254.bsaco701.dsl.brasiltelecom.net.br (201.67.102.254)  13.009 ms  13.675 ms  13.511 ms
+ 3  brt-ge-3-1-0-1000-paemt-border.brasiltelecom.net.br (201.10.231.98)  59.556 ms  456.516 ms  60.955 ms
+ 4  200.180.143.218 (200.180.143.218)  62.801 ms  62.827 ms  62.460 ms
+ 5  terra-v-94-dsw01-poa.tc.terra.com.br (200.176.8.169)  58.180 ms
+    terra-v-98-dsw01-poa.tc.terra.com.br (200.176.8.197)  57.038 ms
+    terra-v-94-dsw01-poa.tc.terra.com.br (200.176.8.169)  59.325 ms
+ 6  www.terra.com.br (200.154.56.80)  58.178 ms  58.609 ms  57.687 ms
