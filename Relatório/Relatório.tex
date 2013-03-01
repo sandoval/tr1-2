@@ -1,0 +1,68 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx, subfigure}
+\usepackage{indentfirst}
+\usepackage{color}
+
+\graphicspath{ {images/} }
+
+\title{Análise de redes de comunicação através de \textit{packet sniffing}}
+\author{Alexandre Lucchesi Alencar\\
+	09/0104471\\
+	alexandre@loopec.com.br
+	\and
+	Pedro Salum Franco\\
+	09/0139232\\
+	pedro@loopec.com.br
+	\and
+	Daniel A. M. Sandoval\\
+	09/0109899\\
+	daniel@loopec.com.br}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+%resumo do relatório que deve conter objetivo do experimento, resultados chaves, pontos maiores de discussão, resultados mais importantes
+\end{abstract}
+
+\tableofcontents
+
+\chapter{Introdução}
+%introdução: background ou conceitos teóricos relacionados, descrição do equipamento utilizado, restrições no experimento
+A transmissão de informação em redes como a Internet ou LANs se dá através da divisão da informação em pacotes, que são transmitidos nos mais diversos meios - Wi-Fi, Bluetooth, rádio, cabos de pares trançados, par metálico, fibra ótica - para chegar da origem ao seu destino.
+Os protocolos de rede nas camadas física, enlace, rede, transporte e aplicação são responsáveis por tornar essa comunicação transparente e viável por todo o globo terrestre.
+
+O presente projeto tem como objetivo a análise de redes de comunicação através da técnica conhecida como \textit{packet sniffing}, ou seja, examinar os pacotes que são enviados e recebidos para análise da eficiência da rede de comunicação sendo utilizada.
+
+\section{Fundamentação Teórica}
+
+\paragraph{\textit{Packet sniffing}} Técnica que consiste na análise dos pacotes que trafegam na rede, sejam eles endereçados à estação que está monitorando ou não. Através dessa técnica é possível medir a eficiência e taxa de ocupação de uma rede, além de interceptar toda o conteúdo de comunicação não criptografada.
+
+\paragraph{Roteador} Dispositivo capaz de interligar duas redes realizando tradução de endereços, permitindo a criação de redes cada vez maiores.
+
+\paragraph{\textit{Hops}} Os pacotes transmitidos podem trafegar entre diversas redes para chegar ao seu destino. Quando o pacote passa de uma rede para outra através de um roteador, chamamos isso de \textit{hop}.
+
+\section{Equipamentos Utilizados}
+
+Para atingir os objetivos desse projeto, utilizamos os seguintes equipamentos:
+
+\begin{description}
+\item[MacBook Air] Como estação de \textit{packet sniffing}, utilizamos um MacBook Air de 13'' com 4GB de memória RAM e processador Intel Core i7 1.8GHz;
+\item[Wireshark] Para poder capturar os pacotes, utilizamos o software Wireshark, que é \textit{open-source} e funciona monitorando atividade na interface de rede e capturando todos os pacotes que chegam a ela;
+\item[AirPort Express] Para a criação da rede à qual foi conectado o MacBook, foi utilizado um AirPort Express configurado para criar uma rede WiFi no padrão \(802.11g\), a uma taxa de \(54Mbps\);
+\item[D-Link DI-634M] Roteador utilizado para criação de uma subrede para compartilhamento do IP único de saída.
+\end{description}
+
+
+\chapter{Procedimento}
+%Procedimento (descrição das ações realizadas, justificativa no caso de mudança de procedimento)
+
+\chapter{Resultados e análise}
+
+\chapter{Conclusão}
+
+\end{document}
