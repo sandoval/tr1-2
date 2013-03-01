@@ -46,22 +46,95 @@ O presente projeto tem como objetivo a análise de redes de comunicação atrav�
 
 \paragraph{\textit{Hops}} Os pacotes transmitidos podem trafegar entre diversas redes para chegar ao seu destino. Quando o pacote passa de uma rede para outra através de um roteador, chamamos isso de \textit{hop}.
 
+\paragraph{\textit{Handshaking}} Processo onde ocorre troca de pacotes entre duas estações com o objetivo de se estabelecer uma conexão.
+
+\paragraph{\textit{Ping}} Ferramenta que testa a conexão entre duas estações. Muito utilizada para medir performance, através do tempo que leva para a estação que ``pinga'' outra estação receber uma resposta, ou ``\textit{pong}''.
+
 \section{Equipamentos Utilizados}
 
-Para atingir os objetivos desse projeto, utilizamos os seguintes equipamentos:
+Para atingir os objetivos desse projeto, utilizamos os seguintes equipamentos e ferramentas:
 
 \begin{description}
 \item[MacBook Air] Como estação de \textit{packet sniffing}, utilizamos um MacBook Air de 13'' com 4GB de memória RAM e processador Intel Core i7 1.8GHz;
 \item[Wireshark] Para poder capturar os pacotes, utilizamos o software Wireshark, que é \textit{open-source} e funciona monitorando atividade na interface de rede e capturando todos os pacotes que chegam a ela;
 \item[AirPort Express] Para a criação da rede à qual foi conectado o MacBook, foi utilizado um AirPort Express configurado para criar uma rede WiFi no padrão \(802.11g\), a uma taxa de \(54Mbps\);
-\item[D-Link DI-634M] Roteador utilizado para criação de uma subrede para compartilhamento do IP único de saída.
+\item[D-Link DI-634M] Roteador utilizado para criação de uma subrede para compartilhamento do IP único de saída;
+\item[www.ip-address.com] Ferramenta utilizada para estimativa da distância física em quilômetros entre a estação de teste e os sites escolhidos para teste.
 \end{description}
 
+A fim de realizar os testes necessários, foram utilizadas as seguintes conexões com a Internet:
 
-\chapter{Procedimento}
+\begin{description}
+\item[CDT/UnB] Conexão direta ao \textit{backbone} das Universidades brasileiras, através de um endereço IP fixo fornecido pelo Centro de Apoio ao Desenvolvimento Tecnológico da Universidade de Brasília (CDT/UnB);
+\item[Oi] Conexão ADSL à Internet com taxa de transferência contratada de \(2Mbps\) fornecida pela empresa OI S.A.
+\end{description}
+
+\chapter{Parte I}
+
+\paragraph{Objetivo} A Parte I tem como objetivo a medição e análise de aspectos do tráfego de rede. Através da análise dos tempos de resposta a \textit{ping} e de \textit{handshaking} da conexão TCP, pretendemos traçar relação entre a distância física e número de \textit{hops} entre os pontos da rede e os tempos medidos.
+
+\section{\textit{Handshaking} TCP}
+
+\subsection{Procedimento Experimental}
+
+\paragraph{Definição dos casos de teste} Foram escolhidos quatro sites da Internet de acordo com a distância física com a estação de teste, com o objetivo de observar as variações de acordo com a distância até o destino. A relação de sites escolhidos para o teste está representada na Tabela~\ref{tab:siteshandshaking}, bem como o número de \textit{hops} e distância física em quilômetros até o servidor.
+
+\begin{table}[h]
+	\center
+	\begin{tabular}{l*{6}{c}r}
+	Site						& Hops	& Distância (km)\\
+	\hline
+	www.bangladesh.gov.bd		& 24		& 15.465,6\\
+	www.thepiratebay.se		& 15		& 10.180,8\\
+	www.km.gov.al				& 15		& 9.363,2\\
+	www.cic.unb.br				& 6		& 5\\
+	\end{tabular}
+	\caption{Sites escolhidos para teste de \textit{handshaking} TCP}
+	\label{tab:siteshandshaking}
+\end{table}
+
+\paragraph{Escolha da conexão de rede} Para a realização dos testes foi escolhida a rede do CDT/UnB, com o objetivo de verificarmos resultados mais interessantes, principalmente pelo site www.cic.unb.br estar hospedado na mesma infraestrutura e pela qualidade da conexão.
+
+\paragraph{Preparo do ambiente de testes} Com o objetivo de aproximar os testes de um caso real de uma rede de alto tráfego, durante os testes outras estações estavam utilizando a mesma conexão para \textit{streaming} de vídeo e videoconferência via Skype.
+
+\paragraph{Medição dos tempos de \textit{handshaking}} Através da utilização da ferramenta Wireshark, medimos o tempo decorrido entre o envio do primeiro pacote TCP ao site e o recebimento de sua resposta. Um exemplo da visualização fornecida pela ferramenta para os pacotes enviados e recebidos está representada pela Figura~\ref{fig:wirebangladesh}. Os tempos medidos foram armazenados em arquivos de texto para análise posterior.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{bangladesh.png}
+\caption{\textit{Packet sniffing} da conexão com o site www.bangladesh.gov.bd}
+\label{fig:wirebangladesh}
+\end{figure}
+
+\subsection{Resultados e Análise}
+
+Os resultados obtidos foram de acordo com o esperado. Quanto maior a distância física e número de \textit{hops} entre a estação de teste e o site sendo testado, maior o tempo para completar o \textit{handshake} (\(T_{hs}\)), conforme mostrado na Tabela~\ref{tab:resultshandshaking}.
+
+\begin{table}[h]
+	\center
+	\begin{tabular}{l*{6}{c}r}
+	Site						& Hops	& Distância (km)	& \(T_{hs} (ms)\)\\
+	\hline
+	www.bangladesh.gov.bd		& 24		& 15.465,6		& 570,204\\
+	www.thepiratebay.se		& 15		& 10.180,8		& 314,048\\
+	www.km.gov.al				& 15		& 9.363,2			& 306,378\\
+	www.cic.unb.br				& 6		& 5				& 7,723\\
+	\end{tabular}
+	\caption{Tabela compilada dos resultados obtidos no teste de \textit{handshaking}}
+	\label{tab:resultshandshaking}
+\end{table}
+
+\subsubsection*{Análise}
+
+Apesar de haver uma relação clara entre a distância física, número de \textit{hops} e \(T_{hs}\), não é possível generalizar ou sequer traçar uma relação matemática. Percebe-se que \(T_{hs}\) depende da qualidade da conexão em geral, que é afetada pela distância, porém não exclusivamente.
+
+Para conexão com o site www.cic.unb.br, percebemos que \(T_{hs}\) é muito reduzido, o que atribuímos a estar na mesma infraestrutura de rede que a estação de teste. Em comparação, a conexão com o site localizado em Bangladesh, a mais de 15 mil quilômetros de distância, \(T_{hs}\) é 7200\% maior.
+%Parte 1:%Nesta parte, devem ser medidos alguns aspectos do tráfego de rede. Deve ser mostrada a figura da captura do pacote ou execução do comando que justifique a resposta da pergunta e de preferência plotagens de gráficos que ajudem na compreensão dos resultados.%1.1 Enquanto Wireshark está funcionando, conectar a um site com o seu navegador. Quanto tempo leva para completar o handshaking necessário para estabelecer a conexão? Agora variar a distância para o site que você está se conectando. Isso muda o tempo de conexão? O tempo de conexão dependerá de outras coisas - como hora do dia, número de saltos, etc. Mostre um comparativo dos resultados, analisando os valores obtidos e os fatores que implicam na alteração dos valores obtidos. 1.2 Enquanto o Wireshark está em execução, pingar um número de sites e determinar o tempo exato necessário para que o ping (ver referências do comando ping no DOS e no Linux) seja completado. Quais são as variáveis que influenciam nos valores obtidos (distância, número de hops ? ).%Parte 2:%Acessar um site da sua escolha. Responda as perguntas a seguir, com base no conteúdo do quadro Ethernet contendo a mensagem HTTP GET. Ao responder a uma pergunta, deve ser mostrada a figura da captura do pacote que justifique a resposta da pergunta.%2.1 Qual é o endereço de 48 bits Ethernet do seu computador?%2.2 Qual é o endereço de destino de 48 bits no quadro Ethernet? É este o endereço Ethernet do site acessado (Dica: a resposta é não, mas você precisa justificar o motivo). Que dispositivo tem esse endereço Ethernet?%2.3 Quantos bytes desde o início do quadro Ethernet faz o ASCII "G" em "GET" aparecem no quadro Ethernet?%Responda às seguintes questões, com base no conteúdo do quadro de Ethernet que contém o primeiro byte da mensagem de resposta HTTP.%2.4 Qual é o valor do endereço de origem Ethernet? É este o endereço do seu computador, ou do site acessado ?%2.5 Qual é o endereço de destino no quadro Ethernet? É este o endereço Ethernet do seu computador?
+
+%\chapter{Procedimento}
 %Procedimento (descrição das ações realizadas, justificativa no caso de mudança de procedimento)
 
-\chapter{Resultados e análise}
+%\chapter{Resultados e análise}
 
 \chapter{Conclusão}
 
