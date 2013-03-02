@@ -199,13 +199,27 @@ Os resultados foram muito similares aos obtidos nos testes de \textit{handshakin
 
 \paragraph{Objetivo} A Parte II tem como objetivo a medição e análise de uma requisição HTTP GET.
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{Ethernet-source-destination.png}
+\caption{Origem e destino do pacote de rede}
+\label{fig:ethernetsd}
+\end{figure}
+
 \paragraph{2.1} Endereço: 00:88:65:3e:85:7e.
 
-\paragraph{2.2} Endereço: 68:7f:74:eb:12:85. Não, esse é o endereço do roteador conectado à rede local. O roteador é da Linksys (Cisco), como pode-se perceber na figura tem uma referência ao nome "Cisco" junto ao host destino.
+\paragraph{2.2} Endereço: 68:7f:74:eb:12:85. Não, esse é o endereço do roteador conectado à rede local. O roteador é da Linksys (Cisco), como pode-se perceber na Figura~\ref{fig:ethernetsd} tem uma referência ao nome "Cisco" junto ao host destino.
 
-\paragraph{2.3} Como se pode ver na Figura, antes do 'G', tem-se 54 bytes. O caracter 'G' de "GET" corresponde ao valor hexadecimal 0x47. Podemos observar na tabela ASCII que esse número é o correspondente ao "G" maiúsculo.
+\paragraph{2.3} Como se pode ver na Figura~\ref{fig:get}, antes do 'G', tem-se 54 bytes. O caracter 'G' de "GET" corresponde ao valor hexadecimal 0x47. Podemos observar na tabela ASCII que esse número é o correspondente ao "G" maiúsculo.
 
-\paragraph{2.4} Endereço: 00:88:65:3e:85:7e. Do meu computador. Pode-se perceber uma referência ao nome "Apple" na figura, junto ao endereço de 48 bits da fonte. Isto ocorre porque "sniffing" foi feito em um Macbook Air.
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{GET.png}
+\caption{Conteúdo completo do pacote, em notação Hexadecimal e símbolo ASCII}
+\label{fig:get}
+\end{figure}
+
+\paragraph{2.4} Endereço: 00:88:65:3e:85:7e. Do meu computador. Pode-se perceber uma referência ao nome "Apple" na Figura~\ref{fig:ethernetsd}, junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
 
 \paragraph{2.5} Endereço de destino: 68:7f:74:eb:12:85. Não, é o endereço Ethernet do roteador, conforme explicado na questão 2.1.
 
