@@ -27,13 +27,13 @@
 
 \begin{abstract}
 O presente trabalho pretende analisar conexões de rede através da técnica de \textit{packet sniffing}. Sua estrutura é dividida em duas partes. Na primeira, medimos e analisamos os tempos necessários para conexão com sites em diversas localizações geográficas, durante o TCP \textit{handshaking} e \textit{ping}. Na segunda, analisamos uma requisição HTTP GET para determinar seu conteúdo, endereçamento na camada de Rede e analisar o \textit{overhead} causado por protocolos de rede. Os resultados encontrados foram de acordo com o esperado: constatamos variações de até 7200\% em tempos de conexão de acordo com a distância até o destino; constatamos \textit{header} de 54 bytes em requisições HTTP GET; e constatamos variação entre 9\% e 206\% em tempo de conexão quando comparado o \textit{ping} ao TCP \textit{handshaking}.
-%resumo do relatório que deve conter objetivo do experimento, resultados chaves, pontos maiores de discussão, resultados mais importantes
+
 \end{abstract}
 
 \tableofcontents
 
 \chapter{Introdução}
-%introdução: background ou conceitos teóricos relacionados, descrição do equipamento utilizado, restrições no experimento
+
 A transmissão de informação em redes como a Internet ou LANs se dá através da divisão da informação em pacotes, que são transmitidos nos mais diversos meios - Wi-Fi, Bluetooth, rádio, cabos de pares trançados, par metálico, fibra ótica - para chegar da origem ao seu destino.
 Os protocolos de rede nas camadas física, enlace, rede, transporte e aplicação são responsáveis por tornar essa comunicação transparente e viável por todo o globo terrestre.
 
@@ -181,33 +181,22 @@ Os resultados obtidos foram de acordo com o esperado. Quanto maior a distância 
 
 Os resultados foram muito similares aos obtidos nos testes de \textit{handshaking}, conforme esperado. Ainda em comparação com o teste de \textit{handshaking}, destaca-se a diferença \(T_{hs} - T_{ping} = 5,204 ms\), o que representa tempo de \textit{handshaking} 206\% maior do que o tempo de \textit{ping}. Resultado interessante quando comparado ao ocorrido para o site www.bangladesh.gov.bd, para o qual a mesma relação é de apenas 9\%. Esse resultado é esperado uma vez que pequenas variações serão muito mais significativas quando o próprio tempo é pequeno.
 
-%Parte 1:
-%Nesta parte, devem ser medidos alguns aspectos do tráfego de rede. Deve ser mostrada a figura da captura do pacote ou execução do comando que justifique a resposta da pergunta e de preferência plotagens de gráficos que ajudem na compreensão dos resultados.
-%1.1 Enquanto Wireshark está funcionando, conectar a um site com o seu navegador. Quanto tempo leva para completar o handshaking necessário para estabelecer a conexão? Agora variar a distância para o site que você está se conectando. Isso muda o tempo de conexão? O tempo de conexão dependerá de outras coisas - como hora do dia, número de saltos, etc. Mostre um comparativo dos resultados, analisando os valores obtidos e os fatores que implicam na alteração dos valores obtidos. 1.2 Enquanto o Wireshark está em execução, pingar um número de sites e determinar o tempo exato necessário para que o ping (ver referências do comando ping no DOS e no Linux) seja completado. Quais são as variáveis que influenciam nos valores obtidos (distância, número de hops ? ).
-%Parte 2:
-%Acessar um site da sua escolha. Responda as perguntas a seguir, com base no conteúdo do quadro Ethernet contendo a mensagem HTTP GET. Ao responder a uma pergunta, deve ser mostrada a figura da captura do pacote que justifique a resposta da pergunta.
-%2.1 Qual é o endereço de 48 bits Ethernet do seu computador?
-%2.2 Qual é o endereço de destino de 48 bits no quadro Ethernet? É este o endereço Ethernet do site acessado (Dica: a resposta é não, mas você precisa justificar o motivo). Que dispositivo tem esse endereço Ethernet?
-%2.3 Quantos bytes desde o início do quadro Ethernet faz o ASCII "G" em "GET" aparecem no quadro Ethernet?
-%Responda às seguintes questões, com base no conteúdo do quadro de Ethernet que contém o primeiro byte da mensagem de resposta HTTP.
-%2.4 Qual é o valor do endereço de origem Ethernet? É este o endereço do seu computador, ou do site acessado ?
-%2.5 Qual é o endereço de destino no quadro Ethernet? É este o endereço Ethernet do seu computador?
-
-%\chapter{Procedimento}
-%Procedimento (descrição das ações realizadas, justificativa no caso de mudança de procedimento)
-
-\chapter{Parte II}
-
 \paragraph{Objetivo} A Parte II tem como objetivo a medição e análise de uma requisição HTTP GET.
 
-\paragraph A obtenção do endereço de 48 bits Ethernet (endereço MAC) do computador pode ser feita de diversas formas, via Wireshark ou através de um prompt de comando. Para a obtenção via Wireshark, capturou-se uma requisição HTTP/GET e observou-se o valor do campo \textit{Source} em \textit{Ethernet}. Da Figura Y, pode-se constatar que o endereço do \textit{host} (\textit{source}) é: 00:88:65:3e:85:7e. Pode-se perceber também uma referência ao nome "Apple" junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
+A obtenção do endereço de 48 bits Ethernet (endereço MAC) do computador pode ser feita de diversas formas, via prompt de comando ou através de um programa como o Wireshark. Para a obtenção via prompt de comando, utilizou-se o programa \emph{ifconfig} (disponível em qualquer sistema UNIX) digitando no Terminal: \texttt{ifconfig -a}, conforme ilustra a Figura~\ref{fig:terminal} (se estiver em ambiente Windows, o comando deve ser: \texttt{ipconfig \textbackslash{}all}. Da Figura~\ref{fig:terminal}, pode-se obter o endereço físico observando o valor hexadecimal na linha \textit{ether} da interface \textit{en0}, que é 00:88:65:3e:85:7e.
 
-% INSERIR FIGURA AQUI DO ETHERNET AQUI !
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{terminal-ifconfig.png}
+\caption{Ifconfig via Terminal}
+\label{fig:terminal}
+\end{figure}
 
-\paragraph Para a obtenção via prompt de comando, utilizou-se o programa \emph{ifconfig} (disponível em qualquer sistema UNIX) digitando no Terminal: \texttt{ifconfig -a}, conforme ilustra a Figura X (se estiver em ambiente Windows, o comando deve ser: \texttt{ipconfig \textbackslash{}all}. Da Figura X, pode-se obter o endereço físico observando o valor hexadecimal na linha \textit{ether} da interface \textit{en0}.
+Para a obtenção via Wireshark, capturou-se uma requisição HTTP/GET e observou-se o valor do campo \textit{Source} em \textit{Ethernet}. Da Figura~\ref{fig:ethernetsd}, pode-se constatar que o endereço do \textit{host} (\textit{source}) é: 00:88:65:3e:85:7e, ídem ao valor obtido através do prompt de comando. Pode-se perceber também uma referência ao nome "Apple" junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
 
-% INSERIR FIGURA
+Ainda a partir da Figura~\ref{fig:ethernetsd}, pode-se constatar que o endereço Ethernet do destino é: 68:7f:74:eb:12:85. Este é um endereço físico da camada de enlace que representa o endereço do roteador conectado à rede local. O roteador é da Linksys (Cisco) e pode-se perceber na Figura~\ref{fig:ethernetsd} que existe uma referência ao nome ``Cisco'' junto ao computador de destino.
 
+Saindo um pouco do Ethernet e mergulhando um pouco no HTTP/GET, pode-se ver na Figura~\ref{fig:get} que antes do `G' da palavra "GET" (que é o método da requisição HTTP), tem-se 54 bytes. O caracter `G' corresponde ao valor hexadecimal 0x47 (facilmente observável pelo Wireshark: basta clicar sobre a palavra "GET" e o programa deixa em destaque o número hexadecimal correspondente). De fato, basta procurar na tabela ASCII para verificar que esse número corresponde ao ``G'' maiúsculo.
 
 \begin{figure}[h]
 \centering
@@ -216,22 +205,12 @@ Os resultados foram muito similares aos obtidos nos testes de \textit{handshakin
 \label{fig:ethernetsd}
 \end{figure}
 
-\paragraph{2.1} Endereço: 00:88:65:3e:85:7e.
-
-\paragraph{2.2} Endereço: 68:7f:74:eb:12:85. Não, esse é o endereço do roteador conectado à rede local. O roteador é da Linksys (Cisco), como pode-se perceber na Figura~\ref{fig:ethernetsd} tem uma referência ao nome ``Cisco'' junto ao host destino.
-
-\paragraph{2.3} Como se pode ver na Figura~\ref{fig:get}, antes do `G', tem-se 54 bytes. O caracter `G' de ``GET'' corresponde ao valor hexadecimal 0x47. Podemos observar na tabela ASCII que esse número é o correspondente ao ``G'' maiúsculo.
-
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{GET.png}
 \caption{Conteúdo completo do pacote, em notação Hexadecimal e símbolo ASCII}
 \label{fig:get}
 \end{figure}
-
-\paragraph{2.4} Endereço: 00:88:65:3e:85:7e. Do meu computador. Pode-se perceber uma referência ao nome ``Apple'' na Figura~\ref{fig:ethernetsd}, junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
-
-\paragraph{2.5} Endereço de destino: 68:7f:74:eb:12:85. Não, é o endereço Ethernet do roteador, conforme explicado na questão 2.1.
 
 \chapter{Conclusão}
 
