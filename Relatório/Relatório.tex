@@ -204,7 +204,7 @@ Os resultados foram muito similares aos obtidos nos testes de \textit{handshakin
 
 % INSERIR FIGURA AQUI DO ETHERNET AQUI !
 
-\paragraph Para a obtenção via prompt de comando, utilizou-se o programa \emph{ifconfig} (disponível em qualquer sistema UNIX) digitando no Terminal: \texttt{ifconfig -a}, conforme ilustra a Figura X (se estiver em ambiente Windows, o comando deve ser: \texttt{ipconfig \all}. Da Figura X, pode-se obter o endereço físico observando o valor hexadecimal na linha \textit{ether} da interface \textit{en0}.
+\paragraph Para a obtenção via prompt de comando, utilizou-se o programa \emph{ifconfig} (disponível em qualquer sistema UNIX) digitando no Terminal: \texttt{ifconfig -a}, conforme ilustra a Figura X (se estiver em ambiente Windows, o comando deve ser: \texttt{ipconfig \textbackslash{}all}. Da Figura X, pode-se obter o endereço físico observando o valor hexadecimal na linha \textit{ether} da interface \textit{en0}.
 
 % INSERIR FIGURA
 
@@ -233,6 +233,28 @@ Os resultados foram muito similares aos obtidos nos testes de \textit{handshakin
 
 \paragraph{2.5} Endereço de destino: 68:7f:74:eb:12:85. Não, é o endereço Ethernet do roteador, conforme explicado na questão 2.1.
 
-\chapter{Conclusão} O presente trabalhou tornou possível uma visualização mais clara do modelo em camadas presente nas redes de computadores. Foi possível verificar, de forma prática, como as camadas inferiores encapsulam o que é passado pelas camadas de cima, adicionando os respectivos bits de overhead (HTTP <-> TCP/IP <-> Ethernet). Também foi possível verificar o conteúdo presente em uma requisição HTTP GET, como tal requisição torna possível a transmissão de conteúdo em Hypertext (HTML) na WEB e sua natureza \textit{stateless}. Endereços físicos (MAC) e seu funcionamento puderam ser melhor assimilados, juntamente com as funções da camada de enlace: enquadramento, detecção e correção de erros, retransmissões, acesso múltiplo e \textit{switching}.
+\chapter{Conclusão}
+
+O presente trabalhou tornou possível uma visualização mais clara do modelo em camadas presente nas redes de computadores. Foi possível verificar, de forma prática, como as camadas inferiores encapsulam o que é passado pelas camadas de cima, adicionando os respectivos bits de \textit{overhead} (HTTP <-> TCP/IP <-> Ethernet).
+
+Também foi possível verificar o conteúdo presente em uma requisição HTTP GET, como tal requisição torna possível a transmissão de conteúdo em Hypertext (HTML) na WEB e sua natureza \textit{stateless}. Endereços físicos (MAC) e seu funcionamento puderam ser melhor assimilados, juntamente com as funções da camada de enlace: enquadramento, detecção e correção de erros, retransmissões, acesso múltiplo e \textit{switching}.
+
+Foi possível também observar a influência que distância física, número de \textit{hops} e qualidade da rede possuem nos tempos de requisição, fazendo-nos perceber que o estudo e evolução dos protocolos de rede é de suma importância para a garantia de melhoria contínua e perenidade da Internet e demais redes de computadores.
+
+
+\begin{thebibliography}{9}
+
+\bibitem{rfc2616}
+  R. Fielding, J. Gettys, J. Mogul, H. Frystyk, L. Masinter, P. Leach, T. Berners-Lee; \textit{RFC 2616 - Hypertext Transfer Protocol -- HTTP/1.1}; 1999
+  
+\bibitem{garcia}
+  Leon, A., Garcia I. Widjaja; Communication Networks: Fundamental Concepts and Key Architectures; Mc Graw Hill
+  
+\bibitem{tanenbaum}
+  Tanenbaum, A.S.; Redes de Computadores; Editora Campus; Quarta Edição
+  
+\end{thebibliography}
+
 
 \end{document}
+
