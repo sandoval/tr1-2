@@ -199,6 +199,15 @@ Os resultados foram muito similares aos obtidos nos testes de \textit{handshakin
 
 \paragraph{Objetivo} A Parte II tem como objetivo a medição e análise de uma requisição HTTP GET.
 
+\paragraph A obtenção do endereço de 48 bits Ethernet (endereço MAC) do computador pode ser feita de diversas formas, via Wireshark ou através de um prompt de comando. Para a obtenção via Wireshark, capturou-se uma requisição HTTP/GET e observou-se o valor do campo \textit{Source} em \textit{Ethernet}. Da Figura Y, pode-se constatar que o endereço do \textit{host} (\textit{source}) é: 00:88:65:3e:85:7e. Pode-se perceber também uma referência ao nome "Apple" junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
+
+% INSERIR FIGURA AQUI DO ETHERNET AQUI !
+
+\paragraph Para a obtenção via prompt de comando, utilizou-se o programa \emph{ifconfig} (disponível em qualquer sistema UNIX) digitando no Terminal: \texttt{ifconfig -a}, conforme ilustra a Figura X (se estiver em ambiente Windows, o comando deve ser: \texttt{ipconfig \all}. Da Figura X, pode-se obter o endereço físico observando o valor hexadecimal na linha \textit{ether} da interface \textit{en0}.
+
+% INSERIR FIGURA
+
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{Ethernet-source-destination.png}
