@@ -200,14 +200,11 @@ Os resultados foram muito similares aos obtidos nos testes de \textit{handshakin
 
 \paragraph{Objetivo} A Parte II tem como objetivo a medição e análise de uma requisição HTTP GET.
 
-\paragraph A obtenção do endereço de 48 bits Ethernet (endereço MAC) do computador pode ser feita de diversas formas, via Wireshark ou através de um prompt de comando. Para a obtenção via Wireshark, capturou-se uma requisição HTTP/GET e observou-se o valor do campo \textit{Source} em \textit{Ethernet}. Da Figura Y, pode-se constatar que o endereço do \textit{host} (\textit{source}) é: 00:88:65:3e:85:7e. Pode-se perceber também uma referência ao nome "Apple" junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
+A obtenção do endereço de 48 bits Ethernet (endereço MAC) do computador pode ser feita de diversas formas, via prompt de comando ou através de um programa como o Wireshark. Para a obtenção via prompt de comando, utilizou-se o programa \emph{ifconfig} (disponível em qualquer sistema UNIX) digitando no Terminal: \texttt{ifconfig -a}, conforme ilustra a Figura X (se estiver em ambiente Windows, o comando deve ser: \texttt{ipconfig \all}. Da Figura X, pode-se obter o endereço físico observando o valor hexadecimal na linha \textit{ether} da interface \textit{en0}, que é 00:88:65:3e:85:7e.
 
-% INSERIR FIGURA AQUI DO ETHERNET AQUI !
+% INSERIR FIGURA DO TERMINAL
 
-\paragraph Para a obtenção via prompt de comando, utilizou-se o programa \emph{ifconfig} (disponível em qualquer sistema UNIX) digitando no Terminal: \texttt{ifconfig -a}, conforme ilustra a Figura X (se estiver em ambiente Windows, o comando deve ser: \texttt{ipconfig \all}. Da Figura X, pode-se obter o endereço físico observando o valor hexadecimal na linha \textit{ether} da interface \textit{en0}.
-
-% INSERIR FIGURA
-
+Para a obtenção via Wireshark, capturou-se uma requisição HTTP/GET e observou-se o valor do campo \textit{Source} em \textit{Ethernet}. Da Figura~\ref{fig:ethernetsd}, pode-se constatar que o endereço do \textit{host} (\textit{source}) é: 00:88:65:3e:85:7e, ídem ao valor obtido através do prompt de comando. Pode-se perceber também uma referência ao nome "Apple" junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
 
 \begin{figure}[h]
 \centering
@@ -216,11 +213,9 @@ Os resultados foram muito similares aos obtidos nos testes de \textit{handshakin
 \label{fig:ethernetsd}
 \end{figure}
 
-\paragraph{2.1} Endereço: 00:88:65:3e:85:7e.
+Ainda a partir da Figura~\ref{fig:ethernetsd}, pode-se constatar que o endereço Ethernet do destino é: 68:7f:74:eb:12:85. Este é um endereço físico da camada de enlace que representa o endereço do roteador conectado à rede local. O roteador é da Linksys (Cisco) e pode-se perceber na Figura~\ref{fig:ethernetsd} que existe uma referência ao nome ``Cisco'' junto ao computador de destino.
 
-\paragraph{2.2} Endereço: 68:7f:74:eb:12:85. Não, esse é o endereço do roteador conectado à rede local. O roteador é da Linksys (Cisco), como pode-se perceber na Figura~\ref{fig:ethernetsd} tem uma referência ao nome ``Cisco'' junto ao host destino.
-
-\paragraph{2.3} Como se pode ver na Figura~\ref{fig:get}, antes do `G', tem-se 54 bytes. O caracter `G' de ``GET'' corresponde ao valor hexadecimal 0x47. Podemos observar na tabela ASCII que esse número é o correspondente ao ``G'' maiúsculo.
+Saindo um pouco do Ethernet e mergulhando um pouco no HTTP/GET, pode-se ver na Figura~\ref{fig:get} que antes do `G' da palavra "GET" (que é o método da requisição HTTP), tem-se 54 bytes. O caracter `G' corresponde ao valor hexadecimal 0x47 (facilmente observável pelo Wireshark: basta clicar sobre a palavra "GET" e o programa deixa em destaque o número hexadecimal correspondente). De fato, basta procurar na tabela ASCII para verificar que esse número corresponde ao ``G'' maiúsculo.
 
 \begin{figure}[h]
 \centering
@@ -229,9 +224,33 @@ Os resultados foram muito similares aos obtidos nos testes de \textit{handshakin
 \label{fig:get}
 \end{figure}
 
-\paragraph{2.4} Endereço: 00:88:65:3e:85:7e. Do meu computador. Pode-se perceber uma referência ao nome ``Apple'' na Figura~\ref{fig:ethernetsd}, junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
+%
+% APAGAR DAQUI PRA BAIXO.
+%
 
-\paragraph{2.5} Endereço de destino: 68:7f:74:eb:12:85. Não, é o endereço Ethernet do roteador, conforme explicado na questão 2.1.
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=\textwidth]{Ethernet-source-destination.png}
+%\caption{Origem e destino do pacote de rede}
+%\label{fig:ethernetsd}
+%\end{figure}
+%
+%\paragraph{2.1} Endereço: 00:88:65:3e:85:7e.
+%
+%\paragraph{2.2} Endereço: 68:7f:74:eb:12:85. Não, esse é o endereço do roteador conectado à rede local. O roteador é da Linksys (Cisco), como pode-se perceber na Figura~\ref{fig:ethernetsd} tem uma referência ao nome ``Cisco'' junto ao host destino.
+%
+%\paragraph{2.3} Como se pode ver na Figura~\ref{fig:get}, antes do `G', tem-se 54 bytes. O caracter `G' de ``GET'' corresponde ao valor hexadecimal 0x47. Podemos observar na tabela ASCII que esse número é o correspondente ao ``G'' maiúsculo.
+%
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=\textwidth]{GET.png}
+%\caption{Conteúdo completo do pacote, em notação Hexadecimal e símbolo ASCII}
+%\label{fig:get}
+%\end{figure}
+%
+%\paragraph{2.4} Endereço: 00:88:65:3e:85:7e. Do meu computador. Pode-se perceber uma referência ao nome ``Apple'' na Figura~\ref{fig:ethernetsd}, junto ao endereço de 48 bits da fonte. Isto ocorre porque ``sniffing'' foi feito em um Macbook Air.
+%
+%\paragraph{2.5} Endereço de destino: 68:7f:74:eb:12:85. Não, é o endereço Ethernet do roteador, conforme explicado na questão 2.1.
 
 \chapter{Conclusão} O presente trabalhou tornou possível uma visualização mais clara do modelo em camadas presente nas redes de computadores. Foi possível verificar, de forma prática, como as camadas inferiores encapsulam o que é passado pelas camadas de cima, adicionando os respectivos bits de overhead (HTTP <-> TCP/IP <-> Ethernet). Também foi possível verificar o conteúdo presente em uma requisição HTTP GET, como tal requisição torna possível a transmissão de conteúdo em Hypertext (HTML) na WEB e sua natureza \textit{stateless}. Endereços físicos (MAC) e seu funcionamento puderam ser melhor assimilados, juntamente com as funções da camada de enlace: enquadramento, detecção e correção de erros, retransmissões, acesso múltiplo e \textit{switching}.
 
