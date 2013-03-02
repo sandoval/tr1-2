@@ -26,7 +26,7 @@
 \maketitle
 
 \begin{abstract}
-O presente trabalho 
+O presente trabalho pretende analisar conexões de rede através da técnica de \textit{packet sniffing}. Sua estrutura é dividida em duas partes. Na primeira, medimos e analisamos os tempos necessários para conexão com sites em diversas localizações geográficas, durante o TCP \textit{handshaking} e \textit{ping}. Na segunda, analisamos uma requisição HTTP GET para determinar seu conteúdo, endereçamento na camada de Rede e analisar o \textit{overhead} causado por protocolos de rede. Os resultados encontrados foram de acordo com o esperado: constatamos variações de até 7200\% em tempos de conexão de acordo com a distância até o destino; constatamos \textit{header} de 54 bytes em requisições HTTP GET; e constatamos variação entre 9\% e 206\% em tempo de conexão quando comparado o \textit{ping} ao TCP \textit{handshaking}.
 %resumo do relatório que deve conter objetivo do experimento, resultados chaves, pontos maiores de discussão, resultados mais importantes
 \end{abstract}
 
@@ -145,8 +145,8 @@ Conforme esperado, a relação entre distância, número de \textit{hops} e o te
 	Site						& Hops	& Distância (km)	& Localização\\
 	\hline
 	www.bangladesh.gov.bd		& 24		& 15.465,6		& Bangladesh\\
-	www.google.com		& 7		& 9.684,8		& EUA\\
-	www.terra.com.br				& 5		& 996,8			& Brasil\\
+	www.google.com			& 7		& 9.684,8			& EUA\\
+	www.terra.com.br			& 5		& 996,8			& Brasil\\
 	www.cic.unb.br				& 6		& 5				& Brasil\\
 	\end{tabular}
 	\caption{Sites escolhidos para teste de \textit{ping}}
@@ -169,8 +169,8 @@ Os resultados obtidos foram de acordo com o esperado. Quanto maior a distância 
 	Site						& Hops	& Distância (km)	& \(T_{ping}\)(ms)\\
 	\hline
 	www.bangladesh.gov.bd		& 24		& 15.465,6		& 523,186\\
-	www.google.com		& 7		& 9.684,8		& 181,996\\
-	www.terra.com.br				& 5		& 996,8			& 58,081\\
+	www.google.com			& 7		& 9.684,8			& 181,996\\
+	www.terra.com.br			& 5		& 996,8			& 58,081\\
 	www.cic.unb.br				& 6		& 5				& 2,519\\
 	\end{tabular}
 	\caption{Resultados obtidos para teste de \textit{ping}}
